@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "canonicalRoot": "C:\\Users\\super\\.agents",
+  "activeSkillRoot": "C:\\Users\\super\\.agents\\skills",
+  "activeSkillCount": 25,
+  "registeredCatalogSkillCount": 238,
+  "totalRegisteredSkillCount": 263,
+  "nativeSkillConsumers": [
+    "codex",
+    "gemini"
+  ],
+  "linkedSkillConsumers": {
+    "claude": "C:\\Users\\super\\.claude\\skills"
+  },
+  "catalogs": [
+    {
+      "name": "awesome-legal-skills",
+      "path": "C:\\Users\\super\\.agents\\catalogs\\awesome-legal-skills",
+      "source": "C:\\Users\\super\\.skills\\awesome-legal-skills",
+      "skillCount": 238,
+      "activeGlobally": false,
+      "reason": "Registered but not activated for Codex and Gemini to avoid crowding their global skill indexes."
+    }
+  ],
+  "sourcePriority": [
+    "existing-shared",
+    "codex",
+    "gemini",
+    "claude"
+  ],
+  "knownConflicts": [
+    {
+      "name": "claude-automation-recommender",
+      "selected": "existing-shared",
+      "variants": ["shared", "claude"]
+    },
+    {
+      "name": "graphify",
+      "selected": "existing-shared",
+      "variants": ["shared", "codex", "claude", "gemini"]
+    },
+    {
+      "name": "markitdown",
+      "selected": "codex",
+      "variants": ["codex", "claude", "gemini"]
+    }
+  ]
+}

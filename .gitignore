@@ -1,0 +1,23 @@
+# Credentials & Secrets
+config/telegram.json
+*.env
+*.env.local
+*.secret
+*.key
+*.pem
+credentials.json
+
+# Backups & Temporary Directories
+backups/
+*.log
+*.tmp
+temp/
+scratch/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nested Git repositories
+catalogs/ecc/.git

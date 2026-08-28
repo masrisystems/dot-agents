@@ -1,0 +1,566 @@
+[
+  {
+    "Name": "aside",
+    "Description": "Answer a quick side question without interrupting or losing context from the current task. Resume work automatically after answering.",
+    "RelativePath": "aside.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\aside.md"
+  },
+  {
+    "Name": "auto-update",
+    "Description": "Pull the latest ECC repo changes and reinstall the current managed targets.",
+    "RelativePath": "auto-update.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\auto-update.md"
+  },
+  {
+    "Name": "build-fix",
+    "Description": "Detect the project build system and incrementally fix build/type errors with minimal safe changes.",
+    "RelativePath": "build-fix.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\build-fix.md"
+  },
+  {
+    "Name": "checkpoint",
+    "Description": "Create, verify, or list workflow checkpoints after running verification checks.",
+    "RelativePath": "checkpoint.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\checkpoint.md"
+  },
+  {
+    "Name": "code-review",
+    "Description": "Code review — local uncommitted changes or GitHub PR (pass PR number/URL for PR mode)",
+    "RelativePath": "code-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\code-review.md"
+  },
+  {
+    "Name": "cost-report",
+    "Description": "Generate a local Claude Code cost report from the ECC cost-tracker metrics log.",
+    "RelativePath": "cost-report.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\cost-report.md"
+  },
+  {
+    "Name": "cpp-build",
+    "Description": "Fix C++ build errors, CMake issues, and linker problems incrementally. Invokes the cpp-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "cpp-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\cpp-build.md"
+  },
+  {
+    "Name": "cpp-review",
+    "Description": "Comprehensive C++ code review for memory safety, modern C++ idioms, concurrency, and security. Invokes the cpp-reviewer agent.",
+    "RelativePath": "cpp-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\cpp-review.md"
+  },
+  {
+    "Name": "cpp-test",
+    "Description": "Enforce TDD workflow for C++. Write GoogleTest tests first, then implement. Verify coverage with gcov/lcov.",
+    "RelativePath": "cpp-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\cpp-test.md"
+  },
+  {
+    "Name": "ecc-guide",
+    "Description": "Navigate ECC's current agents, skills, commands, hooks, install profiles, and docs from the live repository surface.",
+    "RelativePath": "ecc-guide.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\ecc-guide.md"
+  },
+  {
+    "Name": "epic-claim",
+    "Description": "Claim an epic issue, stamp coordination state, and sync local ownership.",
+    "RelativePath": "epic-claim.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-claim.md"
+  },
+  {
+    "Name": "epic-decompose",
+    "Description": "Break an epic into task children without creating task branches.",
+    "RelativePath": "epic-decompose.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-decompose.md"
+  },
+  {
+    "Name": "epic-publish",
+    "Description": "Publish a validated epic update back to the issue and local cache.",
+    "RelativePath": "epic-publish.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-publish.md"
+  },
+  {
+    "Name": "epic-review",
+    "Description": "Mark epic review requested, approved, or changes requested.",
+    "RelativePath": "epic-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-review.md"
+  },
+  {
+    "Name": "epic-sync",
+    "Description": "Sync epic issue bodies, labels, and local coordination snapshots from GitHub.",
+    "RelativePath": "epic-sync.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-sync.md"
+  },
+  {
+    "Name": "epic-unblock",
+    "Description": "Sweep blocked epic issues and reopen anything whose dependencies are closed.",
+    "RelativePath": "epic-unblock.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-unblock.md"
+  },
+  {
+    "Name": "epic-validate",
+    "Description": "Validate epic readiness, dependencies, and coordination policy.",
+    "RelativePath": "epic-validate.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\epic-validate.md"
+  },
+  {
+    "Name": "evolve",
+    "Description": "Analyze instincts and suggest or generate evolved structures",
+    "RelativePath": "evolve.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\evolve.md"
+  },
+  {
+    "Name": "fastapi-review",
+    "Description": "Review a FastAPI application for architecture, async correctness, dependency injection, Pydantic schemas, security, performance, and testability.",
+    "RelativePath": "fastapi-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\fastapi-review.md"
+  },
+  {
+    "Name": "feature-dev",
+    "Description": "Guided feature development with codebase understanding and architecture focus",
+    "RelativePath": "feature-dev.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\feature-dev.md"
+  },
+  {
+    "Name": "flutter-build",
+    "Description": "Fix Dart analyzer errors and Flutter build failures incrementally. Invokes the dart-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "flutter-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\flutter-build.md"
+  },
+  {
+    "Name": "flutter-review",
+    "Description": "Review Flutter/Dart code for idiomatic patterns, widget best practices, state management, performance, accessibility, and security. Invokes the flutter-reviewer agent.",
+    "RelativePath": "flutter-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\flutter-review.md"
+  },
+  {
+    "Name": "flutter-test",
+    "Description": "Run Flutter/Dart tests, report failures, and incrementally fix test issues. Covers unit, widget, golden, and integration tests.",
+    "RelativePath": "flutter-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\flutter-test.md"
+  },
+  {
+    "Name": "gan-build",
+    "Description": "Run a generator/evaluator build loop for implementation tasks with bounded iterations and scoring.",
+    "RelativePath": "gan-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\gan-build.md"
+  },
+  {
+    "Name": "gan-design",
+    "Description": "Run a generator/evaluator design loop for frontend or visual work with bounded iterations and scoring.",
+    "RelativePath": "gan-design.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\gan-design.md"
+  },
+  {
+    "Name": "go-build",
+    "Description": "Fix Go build errors, go vet warnings, and linter issues incrementally. Invokes the go-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "go-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\go-build.md"
+  },
+  {
+    "Name": "go-review",
+    "Description": "Comprehensive Go code review for idiomatic patterns, concurrency safety, error handling, and security. Invokes the go-reviewer agent.",
+    "RelativePath": "go-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\go-review.md"
+  },
+  {
+    "Name": "go-test",
+    "Description": "Enforce TDD workflow for Go. Write table-driven tests first, then implement. Verify 80%+ coverage with go test -cover.",
+    "RelativePath": "go-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\go-test.md"
+  },
+  {
+    "Name": "gradle-build",
+    "Description": "Fix Gradle build errors for Android and KMP projects",
+    "RelativePath": "gradle-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\gradle-build.md"
+  },
+  {
+    "Name": "harness-audit",
+    "Description": "Run a deterministic repository harness audit and return a prioritized scorecard.",
+    "RelativePath": "harness-audit.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\harness-audit.md"
+  },
+  {
+    "Name": "hookify-configure",
+    "Description": "Enable or disable hookify rules interactively",
+    "RelativePath": "hookify-configure.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\hookify-configure.md"
+  },
+  {
+    "Name": "hookify-help",
+    "Description": "Get help with the hookify system",
+    "RelativePath": "hookify-help.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\hookify-help.md"
+  },
+  {
+    "Name": "hookify-list",
+    "Description": "List all configured hookify rules",
+    "RelativePath": "hookify-list.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\hookify-list.md"
+  },
+  {
+    "Name": "hookify",
+    "Description": "Create hooks to prevent unwanted behaviors from conversation analysis or explicit instructions",
+    "RelativePath": "hookify.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\hookify.md"
+  },
+  {
+    "Name": "instinct-export",
+    "Description": "Export instincts from project/global scope to a file",
+    "RelativePath": "instinct-export.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\instinct-export.md"
+  },
+  {
+    "Name": "instinct-import",
+    "Description": "Import instincts from file or URL into project/global scope",
+    "RelativePath": "instinct-import.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\instinct-import.md"
+  },
+  {
+    "Name": "instinct-status",
+    "Description": "Show learned instincts (project + global) with confidence",
+    "RelativePath": "instinct-status.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\instinct-status.md"
+  },
+  {
+    "Name": "jira",
+    "Description": "Retrieve a Jira ticket, analyze requirements, update status, or add comments. Uses the jira-integration skill and MCP or REST API.",
+    "RelativePath": "jira.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\jira.md"
+  },
+  {
+    "Name": "kotlin-build",
+    "Description": "Fix Kotlin/Gradle build errors, compiler warnings, and dependency issues incrementally. Invokes the kotlin-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "kotlin-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\kotlin-build.md"
+  },
+  {
+    "Name": "kotlin-review",
+    "Description": "Comprehensive Kotlin code review for idiomatic patterns, null safety, coroutine safety, and security. Invokes the kotlin-reviewer agent.",
+    "RelativePath": "kotlin-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\kotlin-review.md"
+  },
+  {
+    "Name": "kotlin-test",
+    "Description": "Enforce TDD workflow for Kotlin. Write Kotest tests first, then implement. Verify 80%+ coverage with Kover.",
+    "RelativePath": "kotlin-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\kotlin-test.md"
+  },
+  {
+    "Name": "learn-eval",
+    "Description": "Extract reusable patterns from the session, self-evaluate quality before saving, and determine the right save location (Global vs Project).",
+    "RelativePath": "learn-eval.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\learn-eval.md"
+  },
+  {
+    "Name": "learn",
+    "Description": "Extract reusable patterns from the current session and save them as candidate skills or guidance.",
+    "RelativePath": "learn.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\learn.md"
+  },
+  {
+    "Name": "loop-start",
+    "Description": "Start a managed autonomous loop pattern with safety defaults and explicit stop conditions.",
+    "RelativePath": "loop-start.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\loop-start.md"
+  },
+  {
+    "Name": "loop-status",
+    "Description": "Inspect active loop state, progress, failure signals, and recommended intervention.",
+    "RelativePath": "loop-status.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\loop-status.md"
+  },
+  {
+    "Name": "marketing-campaign",
+    "Description": "Plan and execute a full marketing campaign. Accepts a product brief and returns positioning, landing page copy, email sequence, social posts, ad variants, video scripts, and a content calendar. Can also review existing copy for conversion quality.",
+    "RelativePath": "marketing-campaign.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\marketing-campaign.md"
+  },
+  {
+    "Name": "model-route",
+    "Description": "Recommend the best model tier for the current task based on complexity, risk, and budget.",
+    "RelativePath": "model-route.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\model-route.md"
+  },
+  {
+    "Name": "multi-backend",
+    "Description": "Run a backend-focused multi-model workflow for APIs, algorithms, data, and business logic.",
+    "RelativePath": "multi-backend.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\multi-backend.md"
+  },
+  {
+    "Name": "multi-execute",
+    "Description": "Execute a multi-model implementation plan while preserving Claude as the only filesystem writer.",
+    "RelativePath": "multi-execute.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\multi-execute.md"
+  },
+  {
+    "Name": "multi-frontend",
+    "Description": "Run a frontend-focused multi-model workflow for components, layouts, animation, and UI polish.",
+    "RelativePath": "multi-frontend.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\multi-frontend.md"
+  },
+  {
+    "Name": "multi-plan",
+    "Description": "Create a multi-model implementation plan without modifying production code.",
+    "RelativePath": "multi-plan.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\multi-plan.md"
+  },
+  {
+    "Name": "multi-workflow",
+    "Description": "Run a full multi-model development workflow with research, planning, execution, optimization, and review.",
+    "RelativePath": "multi-workflow.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\multi-workflow.md"
+  },
+  {
+    "Name": "orch-add-feature",
+    "Description": "Orchestrate building a brand-new feature end to end — research, plan, TDD, review, gated commit. Wrapper that kicks off the orch-add-feature skill.",
+    "RelativePath": "orch-add-feature.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-add-feature.md"
+  },
+  {
+    "Name": "orch-build-mvp",
+    "Description": "Orchestrate bootstrapping a working MVP from a design/spec doc — ingest, slice, scaffold, TDD, review, gated commit (reuses the GAN harness). Wrapper for the orch-build-mvp skill.",
+    "RelativePath": "orch-build-mvp.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-build-mvp.md"
+  },
+  {
+    "Name": "orch-change-feature",
+    "Description": "Orchestrate altering an existing, working feature to new desired behavior — update tests to the new spec, change impl, review, gated commit. Wrapper for the orch-change-feature skill.",
+    "RelativePath": "orch-change-feature.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-change-feature.md"
+  },
+  {
+    "Name": "orch-fix-defect",
+    "Description": "Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, gated commit. Wrapper for the orch-fix-defect skill.",
+    "RelativePath": "orch-fix-defect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-fix-defect.md"
+  },
+  {
+    "Name": "orch-refine-code",
+    "Description": "Orchestrate a behavior-preserving refactor — confirm tests green, restructure without changing behavior, keep green, review, gated commit. Wrapper for the orch-refine-code skill.",
+    "RelativePath": "orch-refine-code.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-refine-code.md"
+  },
+  {
+    "Name": "orch-review",
+    "Description": "Run the orch-review native Workflow over a diff (local changes or a GitHub PR) and report blocking vs advisory findings. Surface for the orch-review workflow.",
+    "RelativePath": "orch-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\orch-review.md"
+  },
+  {
+    "Name": "plan-canvas",
+    "Description": "Open a plan or HTML artifact in the browser Plan Canvas for annotate-and-approve review",
+    "RelativePath": "plan-canvas.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\plan-canvas.md"
+  },
+  {
+    "Name": "plan-prd",
+    "Description": "Generate a lean, problem-first PRD and hand off to /plan for implementation planning.",
+    "RelativePath": "plan-prd.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\plan-prd.md"
+  },
+  {
+    "Name": "plan",
+    "Description": "Restate requirements, assess risks, and create step-by-step implementation plan. WAIT for user CONFIRM before touching any code.",
+    "RelativePath": "plan.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\plan.md"
+  },
+  {
+    "Name": "pm2",
+    "Description": "Analyze a project and generate PM2 service commands for detected frontend, backend, or database services.",
+    "RelativePath": "pm2.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\pm2.md"
+  },
+  {
+    "Name": "pr",
+    "Description": "Create a GitHub PR from current branch with unpushed commits — discovers templates, analyzes changes, pushes",
+    "RelativePath": "pr.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\pr.md"
+  },
+  {
+    "Name": "project-init",
+    "Description": "Detect a project's stack and produce a dry-run ECC onboarding plan using the repository's install manifests and stack mappings.",
+    "RelativePath": "project-init.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\project-init.md"
+  },
+  {
+    "Name": "projects",
+    "Description": "List known projects and their instinct statistics",
+    "RelativePath": "projects.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\projects.md"
+  },
+  {
+    "Name": "promote",
+    "Description": "Promote project-scoped instincts to global scope",
+    "RelativePath": "promote.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\promote.md"
+  },
+  {
+    "Name": "prp-commit",
+    "Description": "Quick commit with natural language file targeting — describe what to commit in plain English",
+    "RelativePath": "prp-commit.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prp-commit.md"
+  },
+  {
+    "Name": "prp-implement",
+    "Description": "Execute an implementation plan with rigorous validation loops",
+    "RelativePath": "prp-implement.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prp-implement.md"
+  },
+  {
+    "Name": "prp-plan",
+    "Description": "Create comprehensive feature implementation plan with codebase analysis and pattern extraction",
+    "RelativePath": "prp-plan.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prp-plan.md"
+  },
+  {
+    "Name": "prp-pr",
+    "Description": "Create a GitHub PR from current branch with unpushed commits — discovers templates, analyzes changes, pushes",
+    "RelativePath": "prp-pr.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prp-pr.md"
+  },
+  {
+    "Name": "prp-prd",
+    "Description": "Interactive PRD generator - problem-first, hypothesis-driven product spec with back-and-forth questioning",
+    "RelativePath": "prp-prd.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prp-prd.md"
+  },
+  {
+    "Name": "prune",
+    "Description": "Delete pending instincts older than 30 days that were never promoted",
+    "RelativePath": "prune.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\prune.md"
+  },
+  {
+    "Name": "python-review",
+    "Description": "Comprehensive Python code review for PEP 8 compliance, type hints, security, and Pythonic idioms. Invokes the python-reviewer agent.",
+    "RelativePath": "python-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\python-review.md"
+  },
+  {
+    "Name": "quality-gate",
+    "Description": "Run the ECC formatter quality gate for a single file and report remediation steps.",
+    "RelativePath": "quality-gate.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\quality-gate.md"
+  },
+  {
+    "Name": "react-build",
+    "Description": "Fix React build failures (Vite, webpack, Next.js, CRA, Parcel, esbuild, Bun) incrementally — JSX/TSX compile errors, hydration mismatches, server/client component boundary failures, missing types. Invokes the react-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "react-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\react-build.md"
+  },
+  {
+    "Name": "react-review",
+    "Description": "Comprehensive React/JSX code review for hook correctness, render performance, server/client component boundaries, accessibility, and React-specific security. Invokes the react-reviewer agent (and typescript-reviewer alongside on TSX/JSX changes).",
+    "RelativePath": "react-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\react-review.md"
+  },
+  {
+    "Name": "react-test",
+    "Description": "Enforce TDD workflow for React. Write React Testing Library tests first (behavior-focused, accessibility-first), then implement components. Detects Vitest or Jest and verifies coverage targets.",
+    "RelativePath": "react-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\react-test.md"
+  },
+  {
+    "Name": "refactor-clean",
+    "Description": "Safely identify and remove dead code with verification after each change.",
+    "RelativePath": "refactor-clean.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\refactor-clean.md"
+  },
+  {
+    "Name": "resume-session",
+    "Description": "Load the most recent session file from ~/.claude/session-data/ and resume work with full context from where the last session ended.",
+    "RelativePath": "resume-session.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\resume-session.md"
+  },
+  {
+    "Name": "review-pr",
+    "Description": "Comprehensive PR review using specialized agents",
+    "RelativePath": "review-pr.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\review-pr.md"
+  },
+  {
+    "Name": "rust-build",
+    "Description": "Fix Rust build errors, borrow checker issues, and dependency problems incrementally. Invokes the rust-build-resolver agent for minimal, surgical fixes.",
+    "RelativePath": "rust-build.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\rust-build.md"
+  },
+  {
+    "Name": "rust-review",
+    "Description": "Comprehensive Rust code review for ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Invokes the rust-reviewer agent.",
+    "RelativePath": "rust-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\rust-review.md"
+  },
+  {
+    "Name": "rust-test",
+    "Description": "Enforce TDD workflow for Rust. Write tests first, then implement. Verify 80%+ coverage with cargo-llvm-cov.",
+    "RelativePath": "rust-test.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\rust-test.md"
+  },
+  {
+    "Name": "santa-loop",
+    "Description": "Adversarial dual-review convergence loop — two independent model reviewers must both approve before code ships.",
+    "RelativePath": "santa-loop.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\santa-loop.md"
+  },
+  {
+    "Name": "save-session",
+    "Description": "Save current session state to a dated file in ~/.claude/session-data/ so work can be resumed in a future session with full context.",
+    "RelativePath": "save-session.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\save-session.md"
+  },
+  {
+    "Name": "security-scan",
+    "Description": "Run AgentShield against agent, hook, MCP, permission, and secret surfaces.",
+    "RelativePath": "security-scan.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\security-scan.md"
+  },
+  {
+    "Name": "sessions",
+    "Description": "Manage Claude Code session history, aliases, and session metadata.",
+    "RelativePath": "sessions.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\sessions.md"
+  },
+  {
+    "Name": "setup-pm",
+    "Description": "Configure your preferred package manager (npm/pnpm/yarn/bun)",
+    "RelativePath": "setup-pm.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\setup-pm.md"
+  },
+  {
+    "Name": "skill-create",
+    "Description": "Analyze local git history to extract coding patterns and generate SKILL.md files. Local version of the Skill Creator GitHub App.",
+    "RelativePath": "skill-create.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\skill-create.md"
+  },
+  {
+    "Name": "skill-health",
+    "Description": "Show skill portfolio health dashboard with charts and analytics",
+    "RelativePath": "skill-health.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\skill-health.md"
+  },
+  {
+    "Name": "test-coverage",
+    "Description": "Analyze coverage, identify gaps, and generate missing tests toward the target threshold.",
+    "RelativePath": "test-coverage.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\test-coverage.md"
+  },
+  {
+    "Name": "update-codemaps",
+    "Description": "Scan project structure and generate token-lean architecture codemaps.",
+    "RelativePath": "update-codemaps.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\update-codemaps.md"
+  },
+  {
+    "Name": "update-docs",
+    "Description": "Sync documentation from source-of-truth files such as scripts, schemas, routes, and exports.",
+    "RelativePath": "update-docs.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\update-docs.md"
+  },
+  {
+    "Name": "vue-review",
+    "Description": "Comprehensive Vue.js code review for Composition API correctness, reactivity, composable patterns, template security, accessibility, and Vue-specific performance. Invokes the vue-reviewer agent (and typescript-reviewer alongside on .vue/.ts changes).",
+    "RelativePath": "vue-review.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\commands\\vue-review.md"
+  }
+]

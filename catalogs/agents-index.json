@@ -1,0 +1,410 @@
+[
+  {
+    "Name": "a11y-architect",
+    "Description": "Accessibility Architect specializing in WCAG 2.2 compliance for Web and Native platforms. Use PROACTIVELY when designing UI components, establishing design systems, or auditing code for inclusive user experiences.",
+    "File": "a11y-architect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\a11y-architect.md"
+  },
+  {
+    "Name": "agent-evaluator",
+    "Description": "Evaluates agent output against 5-axis quality rubric (accuracy, completeness, clarity, actionability, conciseness). Use after any non-trivial task when the user wants a quality assessment, or when the agent-self-evaluation skill is active. Produces structured scorecard with evidence and improvement suggestions.",
+    "File": "agent-evaluator.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\agent-evaluator.md"
+  },
+  {
+    "Name": "architect",
+    "Description": "Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.",
+    "File": "architect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\architect.md"
+  },
+  {
+    "Name": "build-error-resolver",
+    "Description": "Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly.",
+    "File": "build-error-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\build-error-resolver.md"
+  },
+  {
+    "Name": "chief-of-staff",
+    "Description": "Personal communication chief of staff that triages email, Slack, LINE, and Messenger. Classifies messages into 4 tiers (skip/info_only/meeting_info/action_required), generates draft replies, and enforces post-send follow-through via hooks. Use when managing multi-channel communication workflows.",
+    "File": "chief-of-staff.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\chief-of-staff.md"
+  },
+  {
+    "Name": "code-architect",
+    "Description": "Designs feature architectures by analyzing existing codebase patterns and conventions, then providing implementation blueprints with concrete files, interfaces, data flow, and build order.",
+    "File": "code-architect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\code-architect.md"
+  },
+  {
+    "Name": "code-explorer",
+    "Description": "Deeply analyzes existing codebase features by tracing execution paths, mapping architecture layers, and documenting dependencies to inform new development.",
+    "File": "code-explorer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\code-explorer.md"
+  },
+  {
+    "Name": "code-reviewer",
+    "Description": "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.",
+    "File": "code-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\code-reviewer.md"
+  },
+  {
+    "Name": "code-simplifier",
+    "Description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving behavior. Focus on recently modified code unless instructed otherwise.",
+    "File": "code-simplifier.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\code-simplifier.md"
+  },
+  {
+    "Name": "comment-analyzer",
+    "Description": "Analyze code comments for accuracy, completeness, maintainability, and comment rot risk.",
+    "File": "comment-analyzer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\comment-analyzer.md"
+  },
+  {
+    "Name": "conversation-analyzer",
+    "Description": "Use this agent when analyzing conversation transcripts to find behaviors worth preventing with hooks. Triggered by /hookify without arguments.",
+    "File": "conversation-analyzer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\conversation-analyzer.md"
+  },
+  {
+    "Name": "cpp-build-resolver",
+    "Description": "C++ build, CMake, and compilation error resolution specialist. Fixes build errors, linker issues, and template errors with minimal changes. Use when C++ builds fail.",
+    "File": "cpp-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\cpp-build-resolver.md"
+  },
+  {
+    "Name": "cpp-reviewer",
+    "Description": "Expert C++ code reviewer specializing in memory safety, modern C++ idioms, concurrency, and performance. Use for all C++ code changes. MUST BE USED for C++ projects.",
+    "File": "cpp-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\cpp-reviewer.md"
+  },
+  {
+    "Name": "csharp-reviewer",
+    "Description": "Expert C# code reviewer specializing in .NET conventions, async patterns, security, nullable reference types, and performance. Use for all C# code changes. MUST BE USED for C# projects.",
+    "File": "csharp-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\csharp-reviewer.md"
+  },
+  {
+    "Name": "dart-build-resolver",
+    "Description": "Dart/Flutter build, analysis, and dependency error resolution specialist. Fixes `dart analyze` errors, Flutter compilation failures, pub dependency conflicts, and build_runner issues with minimal, surgical changes. Use when Dart/Flutter builds fail.",
+    "File": "dart-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\dart-build-resolver.md"
+  },
+  {
+    "Name": "database-reviewer",
+    "Description": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
+    "File": "database-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\database-reviewer.md"
+  },
+  {
+    "Name": "django-build-resolver",
+    "Description": "Django/Python build, migration, and dependency error resolution specialist. Fixes pip/Poetry errors, migration conflicts, import errors, Django configuration issues, and collectstatic failures with minimal changes. Use when Django setup or startup fails.",
+    "File": "django-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\django-build-resolver.md"
+  },
+  {
+    "Name": "django-reviewer",
+    "Description": "Expert Django code reviewer specializing in ORM correctness, DRF patterns, migration safety, security misconfigurations, and production-grade Django practices. Use for all Django code changes. MUST BE USED for Django projects.",
+    "File": "django-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\django-reviewer.md"
+  },
+  {
+    "Name": "doc-updater",
+    "Description": "Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.",
+    "File": "doc-updater.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\doc-updater.md"
+  },
+  {
+    "Name": "docs-lookup",
+    "Description": "When the user asks how to use a library, framework, or API or needs up-to-date code examples, use Context7 MCP to fetch current documentation and return answers with examples. Invoke for docs/API/setup questions.",
+    "File": "docs-lookup.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\docs-lookup.md"
+  },
+  {
+    "Name": "e2e-runner",
+    "Description": "End-to-end testing specialist using Vercel Agent Browser (preferred) with Playwright fallback. Use PROACTIVELY for generating, maintaining, and running E2E tests. Manages test journeys, quarantines flaky tests, uploads artifacts (screenshots, videos, traces), and ensures critical user flows work.",
+    "File": "e2e-runner.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\e2e-runner.md"
+  },
+  {
+    "Name": "fastapi-reviewer",
+    "Description": "Reviews FastAPI applications for async correctness, dependency injection, Pydantic schemas, security, OpenAPI quality, testing, and production readiness.",
+    "File": "fastapi-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\fastapi-reviewer.md"
+  },
+  {
+    "Name": "flutter-reviewer",
+    "Description": "Flutter and Dart code reviewer. Reviews Flutter code for widget best practices, state management patterns, Dart idioms, performance pitfalls, accessibility, and clean architecture violations. Library-agnostic — works with any state management solution and tooling.",
+    "File": "flutter-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\flutter-reviewer.md"
+  },
+  {
+    "Name": "fsharp-reviewer",
+    "Description": "Expert F# code reviewer specializing in functional idioms, type safety, pattern matching, computation expressions, and performance. Use for all F# code changes. MUST BE USED for F# projects.",
+    "File": "fsharp-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\fsharp-reviewer.md"
+  },
+  {
+    "Name": "gan-evaluator",
+    "Description": "GAN Harness — Evaluator agent. Tests the live running application via Playwright, scores against rubric, and provides actionable feedback to the Generator.",
+    "File": "gan-evaluator.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\gan-evaluator.md"
+  },
+  {
+    "Name": "gan-generator",
+    "Description": "GAN Harness — Generator agent. Implements features according to the spec, reads evaluator feedback, and iterates until quality threshold is met.",
+    "File": "gan-generator.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\gan-generator.md"
+  },
+  {
+    "Name": "gan-planner",
+    "Description": "GAN Harness — Planner agent. Expands a one-line prompt into a full product specification with features, sprints, evaluation criteria, and design direction.",
+    "File": "gan-planner.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\gan-planner.md"
+  },
+  {
+    "Name": "go-build-resolver",
+    "Description": "Go build, vet, and compilation error resolution specialist. Fixes build errors, go vet issues, and linter warnings with minimal changes. Use when Go builds fail.",
+    "File": "go-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\go-build-resolver.md"
+  },
+  {
+    "Name": "go-reviewer",
+    "Description": "Expert Go code reviewer specializing in idiomatic Go, concurrency patterns, error handling, and performance. Use for all Go code changes. MUST BE USED for Go projects.",
+    "File": "go-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\go-reviewer.md"
+  },
+  {
+    "Name": "harmonyos-app-resolver",
+    "Description": "HarmonyOS application development expert specializing in ArkTS and ArkUI. Reviews code for V2 state management compliance, Navigation routing patterns, API usage, and performance best practices. Use for HarmonyOS/OpenHarmony projects.",
+    "File": "harmonyos-app-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\harmonyos-app-resolver.md"
+  },
+  {
+    "Name": "harness-optimizer",
+    "Description": "Analyze and improve the local agent harness configuration for reliability, cost, and throughput.",
+    "File": "harness-optimizer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\harness-optimizer.md"
+  },
+  {
+    "Name": "healthcare-reviewer",
+    "Description": "Reviews healthcare application code for clinical safety, CDSS accuracy, PHI compliance, and medical data integrity. Specialized for EMR/EHR, clinical decision support, and health information systems.",
+    "File": "healthcare-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\healthcare-reviewer.md"
+  },
+  {
+    "Name": "homelab-architect",
+    "Description": "Designs home and small-lab network plans from hardware inventory, goals, and operator experience level, with safe staged changes and rollback guidance.",
+    "File": "homelab-architect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\homelab-architect.md"
+  },
+  {
+    "Name": "java-build-resolver",
+    "Description": "Java/Maven/Gradle build, compilation, and dependency error resolution specialist. Automatically detects Spring Boot or Quarkus and applies framework-specific fixes. Fixes build errors, Java compiler errors, and Maven/Gradle issues with minimal changes. Use when Java builds fail.",
+    "File": "java-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\java-build-resolver.md"
+  },
+  {
+    "Name": "java-reviewer",
+    "Description": "Expert Java code reviewer for Spring Boot and Quarkus projects. Automatically detects the framework and applies the appropriate review rules. Covers layered architecture, JPA/Panache, MongoDB, security, and concurrency. MUST BE USED for all Java code changes.",
+    "File": "java-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\java-reviewer.md"
+  },
+  {
+    "Name": "kotlin-build-resolver",
+    "Description": "Kotlin/Gradle build, compilation, and dependency error resolution specialist. Fixes build errors, Kotlin compiler errors, and Gradle issues with minimal changes. Use when Kotlin builds fail.",
+    "File": "kotlin-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\kotlin-build-resolver.md"
+  },
+  {
+    "Name": "kotlin-reviewer",
+    "Description": "Kotlin and Android/KMP code reviewer. Reviews Kotlin code for idiomatic patterns, coroutine safety, Compose best practices, clean architecture violations, and common Android pitfalls.",
+    "File": "kotlin-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\kotlin-reviewer.md"
+  },
+  {
+    "Name": "loop-operator",
+    "Description": "Operate autonomous agent loops, monitor progress, and intervene safely when loops stall.",
+    "File": "loop-operator.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\loop-operator.md"
+  },
+  {
+    "Name": "marketing-agent",
+    "Description": "Marketing strategist and copywriter for campaign planning, audience research, positioning, copy creation, and content review. Covers landing pages, email sequences, social posts, ad copy, short-form video scripts, and content calendars. Use when the user wants to plan or execute a product launch or marketing campaign.",
+    "File": "marketing-agent.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\marketing-agent.md"
+  },
+  {
+    "Name": "mle-reviewer",
+    "Description": "Production machine-learning engineering reviewer for data contracts, feature pipelines, training reproducibility, offline/online evaluation, model serving, monitoring, and rollback. Use when ML, MLOps, model training, inference, feature store, or evaluation code changes.",
+    "File": "mle-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\mle-reviewer.md"
+  },
+  {
+    "Name": "network-architect",
+    "Description": "Designs enterprise or multi-site network architecture from requirements, using existing network skills for focused routing, validation, automation, and troubleshooting detail.",
+    "File": "network-architect.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\network-architect.md"
+  },
+  {
+    "Name": "network-config-reviewer",
+    "Description": "Reviews router and switch configurations for security, correctness, stale references, risky change-window commands, and missing operational guardrails.",
+    "File": "network-config-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\network-config-reviewer.md"
+  },
+  {
+    "Name": "network-troubleshooter",
+    "Description": "Diagnoses network connectivity, routing, DNS, interface, and policy symptoms with a read-only OSI-layer workflow and evidence-backed root cause summary.",
+    "File": "network-troubleshooter.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\network-troubleshooter.md"
+  },
+  {
+    "Name": "opensource-forker",
+    "Description": "Fork any project for open-sourcing. Copies files, strips secrets and credentials (20+ patterns), replaces internal references with placeholders, generates .env.example, and cleans git history. First stage of the opensource-pipeline skill.",
+    "File": "opensource-forker.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\opensource-forker.md"
+  },
+  {
+    "Name": "opensource-packager",
+    "Description": "Generate complete open-source packaging for a sanitized project. Produces CLAUDE.md, setup.sh, README.md, LICENSE, CONTRIBUTING.md, and GitHub issue templates. Makes any repo immediately usable with Claude Code. Third stage of the opensource-pipeline skill.",
+    "File": "opensource-packager.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\opensource-packager.md"
+  },
+  {
+    "Name": "opensource-sanitizer",
+    "Description": "Verify an open-source fork is fully sanitized before release. Scans for leaked secrets, PII, internal references, and dangerous files using 20+ regex patterns. Generates a PASS/FAIL/PASS-WITH-WARNINGS report. Second stage of the opensource-pipeline skill. Use PROACTIVELY before any public release.",
+    "File": "opensource-sanitizer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\opensource-sanitizer.md"
+  },
+  {
+    "Name": "performance-optimizer",
+    "Description": "Performance analysis and optimization specialist. Use PROACTIVELY for identifying bottlenecks, optimizing slow code, reducing bundle sizes, and improving runtime performance. Profiling, memory leaks, render optimization, and algorithmic improvements.",
+    "File": "performance-optimizer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\performance-optimizer.md"
+  },
+  {
+    "Name": "php-reviewer",
+    "Description": "Expert PHP code reviewer specializing in PSR-12 compliance, PHP type system, Eloquent ORM patterns, security, and performance. Use for all PHP code changes. MUST BE USED for PHP projects.",
+    "File": "php-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\php-reviewer.md"
+  },
+  {
+    "Name": "planner",
+    "Description": "Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks.",
+    "File": "planner.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\planner.md"
+  },
+  {
+    "Name": "pr-test-analyzer",
+    "Description": "Review pull request test coverage quality and completeness, with emphasis on behavioral coverage and real bug prevention.",
+    "File": "pr-test-analyzer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\pr-test-analyzer.md"
+  },
+  {
+    "Name": "python-reviewer",
+    "Description": "Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects.",
+    "File": "python-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\python-reviewer.md"
+  },
+  {
+    "Name": "pytorch-build-resolver",
+    "Description": "PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes.",
+    "File": "pytorch-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\pytorch-build-resolver.md"
+  },
+  {
+    "Name": "rag-pipeline-reviewer",
+    "Description": "Reviews RAG (Retrieval-Augmented Generation) pipelines for retrieval quality, chunking strategy, embedding choices, and evaluation coverage. Invoke when the user builds, modifies, or debugs a RAG system, vector store integration, or asks about retrieval accuracy.",
+    "File": "rag-pipeline-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\rag-pipeline-reviewer.md"
+  },
+  {
+    "Name": "react-build-resolver",
+    "Description": "Diagnose and fix React build failures across Vite, webpack, Next.js, CRA, Parcel, esbuild, and Bun. Handles JSX/TSX compile errors, hydration mismatches, server/client component boundary failures, missing types, and bundler-specific configuration issues with minimal, surgical changes. MUST BE USED when a React build fails.",
+    "File": "react-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\react-build-resolver.md"
+  },
+  {
+    "Name": "react-reviewer",
+    "Description": "Expert React/JSX code reviewer specializing in hook correctness, render performance, server/client component boundaries, accessibility, and React-specific security. Use for any change touching .tsx/.jsx files or React component logic. MUST BE USED for React projects.",
+    "File": "react-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\react-reviewer.md"
+  },
+  {
+    "Name": "refactor-cleaner",
+    "Description": "Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.",
+    "File": "refactor-cleaner.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\refactor-cleaner.md"
+  },
+  {
+    "Name": "rust-build-resolver",
+    "Description": "Rust build, compilation, and dependency error resolution specialist. Fixes cargo build errors, borrow checker issues, and Cargo.toml problems with minimal changes. Use when Rust builds fail.",
+    "File": "rust-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\rust-build-resolver.md"
+  },
+  {
+    "Name": "rust-reviewer",
+    "Description": "Expert Rust code reviewer specializing in ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Use for all Rust code changes. MUST BE USED for Rust projects.",
+    "File": "rust-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\rust-reviewer.md"
+  },
+  {
+    "Name": "security-reviewer",
+    "Description": "Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.",
+    "File": "security-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\security-reviewer.md"
+  },
+  {
+    "Name": "seo-specialist",
+    "Description": "SEO specialist for technical SEO audits, on-page optimization, structured data, Core Web Vitals, and content/keyword mapping. Use for site audits, meta tag reviews, schema markup, sitemap and robots issues, and SEO remediation plans.",
+    "File": "seo-specialist.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\seo-specialist.md"
+  },
+  {
+    "Name": "silent-failure-hunter",
+    "Description": "Review code for silent failures, swallowed errors, bad fallbacks, and missing error propagation.",
+    "File": "silent-failure-hunter.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\silent-failure-hunter.md"
+  },
+  {
+    "Name": "spec-miner",
+    "Description": "Extracts behavioral specs from existing codebases for OpenSpec. Produces flat Requirement and Invariant blocks with structured metadata (entities, enforced, id, test anchors). Outputs openspec/specs/<capability>/spec.md. Fully self-bootstrapping — no dependency on codebase-onboarding. Use when onboarding a brownfield project to spec-driven development.",
+    "File": "spec-miner.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\spec-miner.md"
+  },
+  {
+    "Name": "swift-build-resolver",
+    "Description": "Swift/Xcode build, compilation, and dependency error resolution specialist. Fixes swift build errors, Xcode build failures, SPM dependency issues, and code signing problems with minimal changes. Use when Swift builds fail.",
+    "File": "swift-build-resolver.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\swift-build-resolver.md"
+  },
+  {
+    "Name": "swift-reviewer",
+    "Description": "Expert Swift code reviewer specializing in protocol-oriented design, value semantics, ARC memory management, Swift Concurrency, and idiomatic patterns. Use for all Swift code changes. MUST BE USED for Swift projects.",
+    "File": "swift-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\swift-reviewer.md"
+  },
+  {
+    "Name": "tdd-guide",
+    "Description": "Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.",
+    "File": "tdd-guide.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\tdd-guide.md"
+  },
+  {
+    "Name": "type-design-analyzer",
+    "Description": "Analyze type design for encapsulation, invariant expression, usefulness, and enforcement.",
+    "File": "type-design-analyzer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\type-design-analyzer.md"
+  },
+  {
+    "Name": "typescript-reviewer",
+    "Description": "Expert TypeScript/JavaScript code reviewer specializing in type safety, async correctness, Node/web security, and idiomatic patterns. Use for all TypeScript and JavaScript code changes. MUST BE USED for TypeScript/JavaScript projects.",
+    "File": "typescript-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\typescript-reviewer.md"
+  },
+  {
+    "Name": "vue-reviewer",
+    "Description": "Expert Vue.js code reviewer specializing in Composition API correctness, reactivity pitfalls, component architecture, template security, and Vue-specific performance. Use for any change touching .vue, .ts/.js files with Vue imports, or Vue ecosystem code (Pinia, Vue Router, Nuxt). MUST BE USED for Vue projects.",
+    "File": "vue-reviewer.md",
+    "Path": "C:\\Users\\super\\.agents\\catalogs\\ecc\\agents\\vue-reviewer.md"
+  }
+]
