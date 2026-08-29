@@ -1,0 +1,4446 @@
+[
+  {
+    "id": "R_kgDOHSdrag",
+    "nameWithOwner": "masrisystems/Portfolio",
+    "description": null,
+    "url": "https://github.com/masrisystems/Portfolio",
+    "stargazerCount": 2,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOH4__Ow",
+    "nameWithOwner": "masrisystems/RoyalCars",
+    "description": null,
+    "url": "https://github.com/masrisystems/RoyalCars",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "SCSS"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOH5PiKg",
+    "nameWithOwner": "masrisystems/Restaurant101",
+    "description": null,
+    "url": "https://github.com/masrisystems/Restaurant101",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOH85sZQ",
+    "nameWithOwner": "masrisystems/JS-Fetch",
+    "description": null,
+    "url": "https://github.com/masrisystems/JS-Fetch",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOILZzEA",
+    "nameWithOwner": "masrisystems/Masrisystems",
+    "description": "Config files for my GitHub profile.",
+    "url": "https://github.com/masrisystems/Masrisystems",
+    "stargazerCount": 2,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "config"
+          }
+        },
+        {
+          "topic": {
+            "name": "github-config"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOGQ4RPA",
+    "nameWithOwner": "adrianhajdin/project_modern_ui_ux_gpt3",
+    "description": "Master the creation of Modern UX/UI Websites",
+    "url": "https://github.com/adrianhajdin/project_modern_ui_ux_gpt3",
+    "stargazerCount": 3839,
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "ui"
+          }
+        },
+        {
+          "topic": {
+            "name": "ux"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOGqF1QQ",
+    "nameWithOwner": "adrianhajdin/project_modern_ui_ux_restaurant",
+    "description": "This is a code repository for the corresponding video tutorial. In this video, we're going to build a Modern UI/UX Restaurant Landing Page Website",
+    "url": "https://github.com/adrianhajdin/project_modern_ui_ux_restaurant",
+    "stargazerCount": 1459,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "reactjs"
+          }
+        },
+        {
+          "topic": {
+            "name": "modern"
+          }
+        },
+        {
+          "topic": {
+            "name": "ui"
+          }
+        },
+        {
+          "topic": {
+            "name": "ux"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOIJ7bkQ",
+    "nameWithOwner": "takasa0220/crm-dashboard",
+    "description": null,
+    "url": "https://github.com/takasa0220/crm-dashboard",
+    "stargazerCount": 31,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzMjk3NTEyODY=",
+    "nameWithOwner": "safak/youtube",
+    "description": null,
+    "url": "https://github.com/safak/youtube",
+    "stargazerCount": 5200,
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOGgfeTA",
+    "nameWithOwner": "adrianhajdin/project_shareme_social_media",
+    "description": "Image Sharing Social Media App",
+    "url": "https://github.com/adrianhajdin/project_shareme_social_media",
+    "stargazerCount": 1727,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "reactjs"
+          }
+        },
+        {
+          "topic": {
+            "name": "sanity"
+          }
+        },
+        {
+          "topic": {
+            "name": "sanity-io"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOKqbTAg",
+    "nameWithOwner": "WassimYazbekk/WassimYazbekk",
+    "description": null,
+    "url": "https://github.com/WassimYazbekk/WassimYazbekk",
+    "stargazerCount": 2,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjYzMzM3MA==",
+    "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "stargazerCount": 315671,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "selfhosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome-list"
+          }
+        },
+        {
+          "topic": {
+            "name": "privacy"
+          }
+        },
+        {
+          "topic": {
+            "name": "hosting"
+          }
+        },
+        {
+          "topic": {
+            "name": "cloud"
+          }
+        },
+        {
+          "topic": {
+            "name": "self-hosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "free-software"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxMzgzOTMxMzk=",
+    "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+    "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "stargazerCount": 240743,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "awesome"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome-list"
+          }
+        },
+        {
+          "topic": {
+            "name": "lists"
+          }
+        },
+        {
+          "topic": {
+            "name": "manuals"
+          }
+        },
+        {
+          "topic": {
+            "name": "resources"
+          }
+        },
+        {
+          "topic": {
+            "name": "howtos"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacks"
+          }
+        },
+        {
+          "topic": {
+            "name": "search-engines"
+          }
+        },
+        {
+          "topic": {
+            "name": "one-liners"
+          }
+        },
+        {
+          "topic": {
+            "name": "cheatsheets"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOG3UWew",
+    "nameWithOwner": "kailong321200875/vue-element-plus-admin",
+    "description": "A backend management system based on vue3, typescript, element-plus, and vite",
+    "url": "https://github.com/kailong321200875/vue-element-plus-admin",
+    "stargazerCount": 3690,
+    "primaryLanguage": {
+      "name": "Vue"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "vite"
+          }
+        },
+        {
+          "topic": {
+            "name": "vuejs"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "element-plus"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "pinia"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue-router"
+          }
+        },
+        {
+          "topic": {
+            "name": "tsx"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxNDgxMjkxNDM=",
+    "nameWithOwner": "bagisto/bagisto",
+    "description": "Open Source eCommerce Platform Built with Laravel for Enterprise-Scale Commerce Supporting 10M+ SKUs",
+    "url": "https://github.com/bagisto/bagisto",
+    "stargazerCount": 28018,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ecommerce-framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "ecommerce"
+          }
+        },
+        {
+          "topic": {
+            "name": "ecommerce-platform"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-application"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-package"
+          }
+        },
+        {
+          "topic": {
+            "name": "multi-tenant"
+          }
+        },
+        {
+          "topic": {
+            "name": "multi-tenancy-plugin"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacktoberfest"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzMjE3NjIx",
+    "nameWithOwner": "phpmyadmin/phpmyadmin",
+    "description": "A web interface for MySQL and MariaDB",
+    "url": "https://github.com/phpmyadmin/phpmyadmin",
+    "stargazerCount": 7915,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "mysql"
+          }
+        },
+        {
+          "topic": {
+            "name": "web-app"
+          }
+        },
+        {
+          "topic": {
+            "name": "mariadb"
+          }
+        },
+        {
+          "topic": {
+            "name": "phpmyadmin"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacktoberfest"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
+    "nameWithOwner": "laravel/laravel",
+    "description": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
+    "url": "https://github.com/laravel/laravel",
+    "stargazerCount": 84886,
+    "primaryLanguage": {
+      "name": "Blade"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzMjcwODk4NzA=",
+    "nameWithOwner": "payloadcms/payload",
+    "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+    "url": "https://github.com/payloadcms/payload",
+    "stargazerCount": 44451,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "headless-cms"
+          }
+        },
+        {
+          "topic": {
+            "name": "cms"
+          }
+        },
+        {
+          "topic": {
+            "name": "express"
+          }
+        },
+        {
+          "topic": {
+            "name": "graphql"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "payload"
+          }
+        },
+        {
+          "topic": {
+            "name": "nodejs"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "mongodb"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOMqaT-Q",
+    "nameWithOwner": "unovue/inspira-ui",
+    "description": "Build beautiful website using Vue & Nuxt.",
+    "url": "https://github.com/unovue/inspira-ui",
+    "stargazerCount": 4942,
+    "primaryLanguage": {
+      "name": "Vue"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "components"
+          }
+        },
+        {
+          "topic": {
+            "name": "shadcn-ui"
+          }
+        },
+        {
+          "topic": {
+            "name": "shadcn-vue"
+          }
+        },
+        {
+          "topic": {
+            "name": "ui-components"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue"
+          }
+        },
+        {
+          "topic": {
+            "name": "vuejs"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwindcss"
+          }
+        },
+        {
+          "topic": {
+            "name": "nuxt"
+          }
+        },
+        {
+          "topic": {
+            "name": "nuxt3"
+          }
+        },
+        {
+          "topic": {
+            "name": "nuxtjs"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyMDgyNzk0MTY=",
+    "nameWithOwner": "emmabostian/developer-portfolios",
+    "description": "A list of developer portfolios for your inspiration",
+    "url": "https://github.com/emmabostian/developer-portfolios",
+    "stargazerCount": 26331,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk4ODQ2NDcwNA==",
+    "nameWithOwner": "PanJiaChen/vue-element-admin",
+    "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "stargazerCount": 90204,
+    "primaryLanguage": {
+      "name": "Vue"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "vue"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin"
+          }
+        },
+        {
+          "topic": {
+            "name": "element-ui"
+          }
+        },
+        {
+          "topic": {
+            "name": "axios"
+          }
+        },
+        {
+          "topic": {
+            "name": "vuex"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue-cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "element"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue-admin"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "mock"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNzg3NzI3MTk=",
+    "nameWithOwner": "vbenjs/vue-vben-admin",
+    "description": "A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!",
+    "url": "https://github.com/vbenjs/vue-vben-admin",
+    "stargazerCount": 33256,
+    "primaryLanguage": {
+      "name": "Vue"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "vue3"
+          }
+        },
+        {
+          "topic": {
+            "name": "vite"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "ant-design"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "tsx"
+          }
+        },
+        {
+          "topic": {
+            "name": "vben"
+          }
+        },
+        {
+          "topic": {
+            "name": "vite-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "vuex"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue-router"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOOENOFw",
+    "nameWithOwner": "FoundationAgents/OpenManus",
+    "description": "No fortress, purely open ground.  OpenManus is Coming.",
+    "url": "https://github.com/FoundationAgents/OpenManus",
+    "stargazerCount": 58101,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOIicM-w",
+    "nameWithOwner": "twentyhq/twenty",
+    "description": "The open alternative to Salesforce, designed for AI.",
+    "url": "https://github.com/twentyhq/twenty",
+    "stargazerCount": 55763,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "crm"
+          }
+        },
+        {
+          "topic": {
+            "name": "customer"
+          }
+        },
+        {
+          "topic": {
+            "name": "graphql"
+          }
+        },
+        {
+          "topic": {
+            "name": "marketing"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "sales"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "crm-system"
+          }
+        },
+        {
+          "topic": {
+            "name": "nestjs"
+          }
+        },
+        {
+          "topic": {
+            "name": "reactjs"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOH_v-qg",
+    "nameWithOwner": "manuelernestog/astrofy",
+    "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
+    "url": "https://github.com/manuelernestog/astrofy",
+    "stargazerCount": 1433,
+    "primaryLanguage": {
+      "name": "Astro"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "astro"
+          }
+        },
+        {
+          "topic": {
+            "name": "blog"
+          }
+        },
+        {
+          "topic": {
+            "name": "daisiyui"
+          }
+        },
+        {
+          "topic": {
+            "name": "personal-blog"
+          }
+        },
+        {
+          "topic": {
+            "name": "personal-website"
+          }
+        },
+        {
+          "topic": {
+            "name": "porfolio-website"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwindcss"
+          }
+        },
+        {
+          "topic": {
+            "name": "website-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "astro-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "astrobuild"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzODcyMTMyMDg=",
+    "nameWithOwner": "jackyzha0/quartz",
+    "description": "🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites",
+    "url": "https://github.com/jackyzha0/quartz",
+    "stargazerCount": 13118,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "digital-garden"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-md"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian"
+          }
+        },
+        {
+          "topic": {
+            "name": "networked-thought"
+          }
+        },
+        {
+          "topic": {
+            "name": "static-site-generator"
+          }
+        },
+        {
+          "topic": {
+            "name": "quartz-ssg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOJ2pG3g",
+    "nameWithOwner": "vitodeploy/vito",
+    "description": "Free and Self-Hosted  Server Management Tool",
+    "url": "https://github.com/vitodeploy/vito",
+    "stargazerCount": 3218,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "deployment"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "self-hosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "server-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "deploy"
+          }
+        },
+        {
+          "topic": {
+            "name": "inertiajs"
+          }
+        },
+        {
+          "topic": {
+            "name": "server"
+          }
+        },
+        {
+          "topic": {
+            "name": "vito"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOKRXfMA",
+    "nameWithOwner": "masrisystems/mohamad-masri-portfolio",
+    "description": "Old Version #nextjs",
+    "url": "https://github.com/masrisystems/mohamad-masri-portfolio",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOLHouzQ",
+    "nameWithOwner": "masrisystems/mohamad-masri",
+    "description": "Personal Portfiolio ",
+    "url": "https://github.com/masrisystems/mohamad-masri",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "vite"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwindcss"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOI0BLXg",
+    "nameWithOwner": "masrisystems/portfolio_website",
+    "description": "Personal Portfolio: Old Version",
+    "url": "https://github.com/masrisystems/portfolio_website",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxOTMyMTU1NTQ=",
+    "nameWithOwner": "n8n-io/n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "stargazerCount": 202668,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "ipaas"
+          }
+        },
+        {
+          "topic": {
+            "name": "n8n"
+          }
+        },
+        {
+          "topic": {
+            "name": "workflow"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "self-hosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "integrations"
+          }
+        },
+        {
+          "topic": {
+            "name": "workflow-automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "development"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxMzI3NTA3MjQ=",
+    "nameWithOwner": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "stargazerCount": 543549,
+    "primaryLanguage": {
+      "name": "Markdown"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "programming"
+          }
+        },
+        {
+          "topic": {
+            "name": "tutorials"
+          }
+        },
+        {
+          "topic": {
+            "name": "tutorial-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "tutorial-exercises"
+          }
+        },
+        {
+          "topic": {
+            "name": "free"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome-list"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk5MTEzMjcxNg==",
+    "nameWithOwner": "afnizarnur/draco",
+    "description": "Draco is a free PSD & HTML resume template",
+    "url": "https://github.com/afnizarnur/draco",
+    "stargazerCount": 219,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "free"
+          }
+        },
+        {
+          "topic": {
+            "name": "html-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "resume-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "cv-template"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxMTIzMTc4Mjc=",
+    "nameWithOwner": "Mamboleoo/DecorativeBackgrounds",
+    "description": "A collection of decorative animated background shapes powered by WebGL and TweenMax",
+    "url": "https://github.com/Mamboleoo/DecorativeBackgrounds",
+    "stargazerCount": 634,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "webgl"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "animation"
+          }
+        },
+        {
+          "topic": {
+            "name": "tweenmax"
+          }
+        },
+        {
+          "topic": {
+            "name": "gsap"
+          }
+        },
+        {
+          "topic": {
+            "name": "webdesign"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDQwNTQzNjk=",
+    "nameWithOwner": "vbenjs/vben-admin-thin-next",
+    "description": "vue-vben-admin-2.0 mini template.vue3,vite,typescript",
+    "url": "https://github.com/vbenjs/vben-admin-thin-next",
+    "stargazerCount": 2075,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "template"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOKFw9_g",
+    "nameWithOwner": "damms005/devdb-vscode",
+    "description": "A zero-config VS Code database extension with affordances to aid development and debugging.",
+    "url": "https://github.com/damms005/devdb-vscode",
+    "stargazerCount": 1429,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOODsgVw",
+    "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stargazerCount": 143198,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "cursor"
+          }
+        },
+        {
+          "topic": {
+            "name": "lovable"
+          }
+        },
+        {
+          "topic": {
+            "name": "system-prompts"
+          }
+        },
+        {
+          "topic": {
+            "name": "v0"
+          }
+        },
+        {
+          "topic": {
+            "name": "cursorai"
+          }
+        },
+        {
+          "topic": {
+            "name": "devin"
+          }
+        },
+        {
+          "topic": {
+            "name": "replit"
+          }
+        },
+        {
+          "topic": {
+            "name": "windsurf"
+          }
+        },
+        {
+          "topic": {
+            "name": "windsurf-ai"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOLTuawg",
+    "nameWithOwner": "tfkhdyt/geminicommit",
+    "description": "CLI that writes git commit messages for you with Google Gemini AI ",
+    "url": "https://github.com/tfkhdyt/geminicommit",
+    "stargazerCount": 213,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOKgOdFw",
+    "nameWithOwner": "Safouene1/support-palestine-banner",
+    "description": "Simply setup banner for websites to show support for Palestinians. ",
+    "url": "https://github.com/Safouene1/support-palestine-banner",
+    "stargazerCount": 341,
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "palestine"
+          }
+        },
+        {
+          "topic": {
+            "name": "collaborate"
+          }
+        },
+        {
+          "topic": {
+            "name": "donate"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacktoberfest2023"
+          }
+        },
+        {
+          "topic": {
+            "name": "help-wanted"
+          }
+        },
+        {
+          "topic": {
+            "name": "learn"
+          }
+        },
+        {
+          "topic": {
+            "name": "support"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDONG4XFg",
+    "nameWithOwner": "imshaiknasir/ai-commit-message",
+    "description": "AI-powered git commit message generator using Gemini",
+    "url": "https://github.com/imshaiknasir/ai-commit-message",
+    "stargazerCount": 8,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOLYtfXA",
+    "nameWithOwner": "HugoRCD/shelve",
+    "description": "Open-source secret & environment management. Secure, simple, collaborative. CLI & Github Sync",
+    "url": "https://github.com/HugoRCD/shelve",
+    "stargazerCount": 451,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "env"
+          }
+        },
+        {
+          "topic": {
+            "name": "environment-variables"
+          }
+        },
+        {
+          "topic": {
+            "name": "secrets-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "collaboration"
+          }
+        },
+        {
+          "topic": {
+            "name": "developer-experience"
+          }
+        },
+        {
+          "topic": {
+            "name": "developer-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "github"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-source"
+          }
+        },
+        {
+          "topic": {
+            "name": "secrets"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTMxNTIwMTA=",
+    "nameWithOwner": "jesseduffield/lazynpm",
+    "description": "terminal UI for npm",
+    "url": "https://github.com/jesseduffield/lazynpm",
+    "stargazerCount": 859,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDcxMjQ4Mzk=",
+    "nameWithOwner": "Niyko/Hydra-Dark-Theme-for-Adminer",
+    "description": "Hydra - Material Design Dark Theme for Adminer Database Management tool, Hydra's dark UI improves visibility and works on all major browsers",
+    "url": "https://github.com/Niyko/Hydra-Dark-Theme-for-Adminer",
+    "stargazerCount": 183,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "adminer"
+          }
+        },
+        {
+          "topic": {
+            "name": "dark-theme"
+          }
+        },
+        {
+          "topic": {
+            "name": "theme"
+          }
+        },
+        {
+          "topic": {
+            "name": "material-design"
+          }
+        },
+        {
+          "topic": {
+            "name": "database"
+          }
+        },
+        {
+          "topic": {
+            "name": "database-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "style"
+          }
+        },
+        {
+          "topic": {
+            "name": "dark"
+          }
+        },
+        {
+          "topic": {
+            "name": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOKrQanA",
+    "nameWithOwner": "vuejs/vue-vapor",
+    "description": "Vue Vapor is a variant of Vue that offers rendering without the Virtual DOM.",
+    "url": "https://github.com/vuejs/vue-vapor",
+    "stargazerCount": 2393,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk1MzAxMDM4MQ==",
+    "nameWithOwner": "Attendize/Attendize",
+    "description": "Attendize is an open-source ticket selling and event management platform built on Laravel.",
+    "url": "https://github.com/Attendize/Attendize",
+    "stargazerCount": 4270,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "door-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "ticketing"
+          }
+        },
+        {
+          "topic": {
+            "name": "tickets"
+          }
+        },
+        {
+          "topic": {
+            "name": "attendance"
+          }
+        },
+        {
+          "topic": {
+            "name": "sell-tickets"
+          }
+        },
+        {
+          "topic": {
+            "name": "event-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "attendize"
+          }
+        },
+        {
+          "topic": {
+            "name": "event-registration"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "events"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk4MjIzODE2OA==",
+    "nameWithOwner": "monicahq/monica",
+    "description": "Personal CRM. Remember everything about your friends, family and business relationships.",
+    "url": "https://github.com/monicahq/monica",
+    "stargazerCount": 25122,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "crm"
+          }
+        },
+        {
+          "topic": {
+            "name": "friends"
+          }
+        },
+        {
+          "topic": {
+            "name": "family"
+          }
+        },
+        {
+          "topic": {
+            "name": "social"
+          }
+        },
+        {
+          "topic": {
+            "name": "prm"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacktoberfest"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk5NTAxMTk3NA==",
+    "nameWithOwner": "akaunting/akaunting",
+    "description": "Online Accounting Software",
+    "url": "https://github.com/akaunting/akaunting",
+    "stargazerCount": 10099,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "accounting"
+          }
+        },
+        {
+          "topic": {
+            "name": "invoices"
+          }
+        },
+        {
+          "topic": {
+            "name": "payments"
+          }
+        },
+        {
+          "topic": {
+            "name": "expenses"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-application"
+          }
+        },
+        {
+          "topic": {
+            "name": "invoicing"
+          }
+        },
+        {
+          "topic": {
+            "name": "billing"
+          }
+        },
+        {
+          "topic": {
+            "name": "budget"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOOYhvSQ",
+    "nameWithOwner": "salahghr4/rh-management",
+    "description": "A modern Human Resources (HR) management web application built with Laravel, React and Inertia.js.",
+    "url": "https://github.com/salahghr4/rh-management",
+    "stargazerCount": 5,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "hr"
+          }
+        },
+        {
+          "topic": {
+            "name": "hr-management-system"
+          }
+        },
+        {
+          "topic": {
+            "name": "inertiajs"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwindcss"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOLQ7pzQ",
+    "nameWithOwner": "google-gemini-php/laravel",
+    "description": "⚡️ Gemini PHP for Laravel is a community-maintained PHP API client that allows you to interact with the Gemini AI API.",
+    "url": "https://github.com/google-gemini-php/laravel",
+    "stargazerCount": 638,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "gemini"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-api"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-ai-client-sdk"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-ai-studio"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-package"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDk5OTU3NTA=",
+    "nameWithOwner": "amruthpillai/reactive-resume",
+    "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+    "url": "https://github.com/amruthpillai/reactive-resume",
+    "stargazerCount": 41858,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "resume-builder"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "hacktoberfest"
+          }
+        },
+        {
+          "topic": {
+            "name": "self-hosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "dsh-plugin"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "agent-skills"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
+    "nameWithOwner": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "url": "https://github.com/public-apis/public-apis",
+    "stargazerCount": 471947,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "api"
+          }
+        },
+        {
+          "topic": {
+            "name": "public-apis"
+          }
+        },
+        {
+          "topic": {
+            "name": "free"
+          }
+        },
+        {
+          "topic": {
+            "name": "apis"
+          }
+        },
+        {
+          "topic": {
+            "name": "list"
+          }
+        },
+        {
+          "topic": {
+            "name": "development"
+          }
+        },
+        {
+          "topic": {
+            "name": "software"
+          }
+        },
+        {
+          "topic": {
+            "name": "public"
+          }
+        },
+        {
+          "topic": {
+            "name": "resources"
+          }
+        },
+        {
+          "topic": {
+            "name": "dataset"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOGkKt0g",
+    "nameWithOwner": "lunarphp/lunar",
+    "description": "An open-source package that brings the power of modern headless e-commerce functionality to Laravel.",
+    "url": "https://github.com/lunarphp/lunar",
+    "stargazerCount": 3703,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "ecommerce"
+          }
+        },
+        {
+          "topic": {
+            "name": "headless"
+          }
+        },
+        {
+          "topic": {
+            "name": "e-commerce"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "filamentphp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDgzNzI0NDE=",
+    "nameWithOwner": "filamentphp/filament",
+    "description": "A powerful open-source UI framework for Laravel • Build and ship apps & admin panels fast with Livewire",
+    "url": "https://github.com/filamentphp/filament",
+    "stargazerCount": 31912,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwind-css"
+          }
+        },
+        {
+          "topic": {
+            "name": "alpine-js"
+          }
+        },
+        {
+          "topic": {
+            "name": "livewire"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin"
+          }
+        },
+        {
+          "topic": {
+            "name": "forms"
+          }
+        },
+        {
+          "topic": {
+            "name": "tables"
+          }
+        },
+        {
+          "topic": {
+            "name": "builder"
+          }
+        },
+        {
+          "topic": {
+            "name": "tall-stack"
+          }
+        },
+        {
+          "topic": {
+            "name": "cms"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOMyHl-w",
+    "nameWithOwner": "bagistoplus/visual",
+    "description": "A modern theme framework & visual editor for Bagisto",
+    "url": "https://github.com/bagistoplus/visual",
+    "stargazerCount": 75,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "bagisto"
+          }
+        },
+        {
+          "topic": {
+            "name": "bagisto-package"
+          }
+        },
+        {
+          "topic": {
+            "name": "bagisto-theme"
+          }
+        },
+        {
+          "topic": {
+            "name": "custom-theme"
+          }
+        },
+        {
+          "topic": {
+            "name": "ecommerce"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "theme-customization"
+          }
+        },
+        {
+          "topic": {
+            "name": "theme-editor"
+          }
+        },
+        {
+          "topic": {
+            "name": "theme-framework"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORF9GhA",
+    "nameWithOwner": "HKUDS/nanobot",
+    "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+    "url": "https://github.com/HKUDS/nanobot",
+    "stargazerCount": 47484,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai-agent"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw"
+          }
+        },
+        {
+          "topic": {
+            "name": "agent-framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "chatbot"
+          }
+        },
+        {
+          "topic": {
+            "name": "chatops"
+          }
+        },
+        {
+          "topic": {
+            "name": "discord-bot"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "llms"
+          }
+        },
+        {
+          "topic": {
+            "name": "local-llm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQb6kRw",
+    "nameWithOwner": "openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "url": "https://github.com/openclaw/openclaw",
+    "stargazerCount": 387887,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "assistant"
+          }
+        },
+        {
+          "topic": {
+            "name": "own-your-data"
+          }
+        },
+        {
+          "topic": {
+            "name": "personal"
+          }
+        },
+        {
+          "topic": {
+            "name": "crustacean"
+          }
+        },
+        {
+          "topic": {
+            "name": "molty"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORJyZjA",
+    "nameWithOwner": "google-gemini/gemini-skills",
+    "description": "Skills for the Gemini API, SDK and model/agent interactions",
+    "url": "https://github.com/google-gemini/gemini-skills",
+    "stargazerCount": 3946,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "gemini"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-api"
+          }
+        },
+        {
+          "topic": {
+            "name": "skills"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOOtkvnQ",
+    "nameWithOwner": "CHATS-lab/verbalized-sampling",
+    "description": "Verbalized Sampling, a training-free prompting strategy to mitigate mode collapse in LLMs by requesting responses with probabilities. Achieves 2-3x diversity improvement while maintaining quality. Model-agnostic framework with CLI/API for creative writing, synthetic data generation, and dialogue simulation.",
+    "url": "https://github.com/CHATS-lab/verbalized-sampling",
+    "stargazerCount": 801,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "creative-writing"
+          }
+        },
+        {
+          "topic": {
+            "name": "diversity"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini"
+          }
+        },
+        {
+          "topic": {
+            "name": "gpt"
+          }
+        },
+        {
+          "topic": {
+            "name": "large-language-models"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "mode-collapse"
+          }
+        },
+        {
+          "topic": {
+            "name": "prompt-engineering"
+          }
+        },
+        {
+          "topic": {
+            "name": "python"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOPtV_vA",
+    "nameWithOwner": "open-mercato/open-mercato",
+    "description": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, events and domain modules already decided as conventions and specs, so Cursor, Claude Code and Codex build features instead of re-deciding architecture. Start with 80% done.",
+    "url": "https://github.com/open-mercato/open-mercato",
+    "stargazerCount": 1690,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "crm"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "admin-panel"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-coding"
+          }
+        },
+        {
+          "topic": {
+            "name": "framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "agentic"
+          }
+        },
+        {
+          "topic": {
+            "name": "erp"
+          }
+        },
+        {
+          "topic": {
+            "name": "nextjs"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-source"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQyvZCA",
+    "nameWithOwner": "kepano/obsidian-skills",
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+    "url": "https://github.com/kepano/obsidian-skills",
+    "stargazerCount": 47412,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "codex"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian"
+          }
+        },
+        {
+          "topic": {
+            "name": "skills"
+          }
+        },
+        {
+          "topic": {
+            "name": "clawdbot"
+          }
+        },
+        {
+          "topic": {
+            "name": "cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "defuddle"
+          }
+        },
+        {
+          "topic": {
+            "name": "opencode"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw"
+          }
+        },
+        {
+          "topic": {
+            "name": "bases"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOM7qVyg",
+    "nameWithOwner": "moonshine-ai/moonshine",
+    "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+    "url": "https://github.com/moonshine-ai/moonshine",
+    "stargazerCount": 10952,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "intent-recognition"
+          }
+        },
+        {
+          "topic": {
+            "name": "stt"
+          }
+        },
+        {
+          "topic": {
+            "name": "tts"
+          }
+        },
+        {
+          "topic": {
+            "name": "voice"
+          }
+        },
+        {
+          "topic": {
+            "name": "voice-recognition"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOPJ9cRA",
+    "nameWithOwner": "LuckyOne7777/LLM-Trading-Lab",
+    "description": "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.",
+    "url": "https://github.com/LuckyOne7777/LLM-Trading-Lab",
+    "stargazerCount": 7498,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOGnzLXA",
+    "nameWithOwner": "lunarphp/livewire-starter-kit",
+    "description": "Demonstration online store for Lunar",
+    "url": "https://github.com/lunarphp/livewire-starter-kit",
+    "stargazerCount": 207,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "e-commerce"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "livewire"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "tailwindcss"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQ2MNCA",
+    "nameWithOwner": "koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "url": "https://github.com/koala73/worldmonitor",
+    "stargazerCount": 84620,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "dashboard"
+          }
+        },
+        {
+          "topic": {
+            "name": "geopolitics"
+          }
+        },
+        {
+          "topic": {
+            "name": "monitoring"
+          }
+        },
+        {
+          "topic": {
+            "name": "news"
+          }
+        },
+        {
+          "topic": {
+            "name": "osint"
+          }
+        },
+        {
+          "topic": {
+            "name": "opensource"
+          }
+        },
+        {
+          "topic": {
+            "name": "palantir"
+          }
+        },
+        {
+          "topic": {
+            "name": "situation"
+          }
+        },
+        {
+          "topic": {
+            "name": "agent"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDONDewpg",
+    "nameWithOwner": "patchy631/ai-engineering-hub",
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "stargazerCount": 37206,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "llms"
+          }
+        },
+        {
+          "topic": {
+            "name": "machine-learning"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "rag"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyMzM0NzIxOTk=",
+    "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
+    "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+    "stargazerCount": 188520,
+    "primaryLanguage": {
+      "name": "Batchfile"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "hwid"
+          }
+        },
+        {
+          "topic": {
+            "name": "kms38"
+          }
+        },
+        {
+          "topic": {
+            "name": "kms"
+          }
+        },
+        {
+          "topic": {
+            "name": "activator"
+          }
+        },
+        {
+          "topic": {
+            "name": "massgrave"
+          }
+        },
+        {
+          "topic": {
+            "name": "massgravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "windows"
+          }
+        },
+        {
+          "topic": {
+            "name": "windows-10"
+          }
+        },
+        {
+          "topic": {
+            "name": "windows-11"
+          }
+        },
+        {
+          "topic": {
+            "name": "office"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOP0O9XQ",
+    "nameWithOwner": "bitbonsai/mcpvault",
+    "description": "A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access",
+    "url": "https://github.com/bitbonsai/mcpvault",
+    "stargazerCount": 1638,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDOOPWeNQ",
+    "nameWithOwner": "upstash/context7",
+    "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "url": "https://github.com/upstash/context7",
+    "stargazerCount": 61326,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        },
+        {
+          "topic": {
+            "name": "vibe-coding"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQEIuxA",
+    "nameWithOwner": "ComposioHQ/awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "stargazerCount": 73742,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "agent-skills"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "antigravity"
+          }
+        },
+        {
+          "topic": {
+            "name": "automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "codex"
+          }
+        },
+        {
+          "topic": {
+            "name": "composio"
+          }
+        },
+        {
+          "topic": {
+            "name": "cursor"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-cli"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOM07POQ",
+    "nameWithOwner": "QiuYannnn/Local-File-Organizer",
+    "description": "An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organizes files for quick, seamless access and easy retrieval.",
+    "url": "https://github.com/QiuYannnn/Local-File-Organizer",
+    "stargazerCount": 3329,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "file-organizer"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "on-device-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "vlm"
+          }
+        },
+        {
+          "topic": {
+            "name": "llama3"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORqQktg",
+    "nameWithOwner": "win4r/ClawTeam-OpenClaw",
+    "description": "ClawTeam fork fully adapted for OpenClaw — multi-agent swarm coordination with OpenClaw as the default agent",
+    "url": "https://github.com/win4r/ClawTeam-OpenClaw",
+    "stargazerCount": 1444,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "clawdbot"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw-extension"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw-plugin"
+          }
+        },
+        {
+          "topic": {
+            "name": "openclaw-skills"
+          }
+        },
+        {
+          "topic": {
+            "name": "swarm"
+          }
+        },
+        {
+          "topic": {
+            "name": "swarm-intelligence"
+          }
+        },
+        {
+          "topic": {
+            "name": "swarms"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORvnVvw",
+    "nameWithOwner": "alvinreal/awesome-opensource-ai",
+    "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated.",
+    "url": "https://github.com/alvinreal/awesome-opensource-ai",
+    "stargazerCount": 4638,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "artificial-intelligence"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome"
+          }
+        },
+        {
+          "topic": {
+            "name": "awesome-list"
+          }
+        },
+        {
+          "topic": {
+            "name": "generative-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "machine-learning"
+          }
+        },
+        {
+          "topic": {
+            "name": "mlops"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-source"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOOMjd8A",
+    "nameWithOwner": "microsoft/playwright-mcp",
+    "description": "Playwright MCP server",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "stargazerCount": 36564,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "playwright"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOOFulYQ",
+    "nameWithOwner": "bytebase/dbhub",
+    "description": "Token conscious database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.",
+    "url": "https://github.com/bytebase/dbhub",
+    "stargazerCount": 3422,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "anthropic"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "database"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "mysql"
+          }
+        },
+        {
+          "topic": {
+            "name": "postgres"
+          }
+        },
+        {
+          "topic": {
+            "name": "sqlserver"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOODGMVA",
+    "nameWithOwner": "github/github-mcp-server",
+    "description": "GitHub's official MCP Server",
+    "url": "https://github.com/github/github-mcp-server",
+    "stargazerCount": 32573,
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "github"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDONfFFeQ",
+    "nameWithOwner": "zcaceres/fetch-mcp",
+    "description": "A flexible HTTP fetching Model Context Protocol server.",
+    "url": "https://github.com/zcaceres/fetch-mcp",
+    "stargazerCount": 816,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDON9sc-Q",
+    "nameWithOwner": "cablate/mcp-google-map",
+    "description": "A powerful Model Context Protocol (MCP) server providing comprehensive Google Maps API integration with LLM processing capabilities.",
+    "url": "https://github.com/cablate/mcp-google-map",
+    "stargazerCount": 436,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "dive"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-map"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        },
+        {
+          "topic": {
+            "name": "agent-skill"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agent"
+          }
+        },
+        {
+          "topic": {
+            "name": "geocoding"
+          }
+        },
+        {
+          "topic": {
+            "name": "geospatial"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-maps"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOJueYYw",
+    "nameWithOwner": "lyogavin/airllm",
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "url": "https://github.com/lyogavin/airllm",
+    "stargazerCount": 32887,
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "chinese-nlp"
+          }
+        },
+        {
+          "topic": {
+            "name": "finetune"
+          }
+        },
+        {
+          "topic": {
+            "name": "generative-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "instruct-gpt"
+          }
+        },
+        {
+          "topic": {
+            "name": "instruction-set"
+          }
+        },
+        {
+          "topic": {
+            "name": "llama"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "lora"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-models"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-source"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORwy2_g",
+    "nameWithOwner": "mitkox/vllm-turboquant",
+    "description": "vLLM TurboQuant",
+    "url": "https://github.com/mitkox/vllm-turboquant",
+    "stargazerCount": 616,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDON4t-Ng",
+    "nameWithOwner": "cjpais/Handy",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+    "url": "https://github.com/cjpais/Handy",
+    "stargazerCount": 30488,
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "speech-to-text"
+          }
+        },
+        {
+          "topic": {
+            "name": "tauri-v2"
+          }
+        },
+        {
+          "topic": {
+            "name": "accessibility"
+          }
+        },
+        {
+          "topic": {
+            "name": "cross-platform"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkxMjk1NTYwNjA=",
+    "nameWithOwner": "croqaz/awesome-automation",
+    "description": "🕶 Awesome list of automation software (local, or ☁️)",
+    "url": "https://github.com/croqaz/awesome-automation",
+    "stargazerCount": 74,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "software"
+          }
+        },
+        {
+          "topic": {
+            "name": "cloud"
+          }
+        },
+        {
+          "topic": {
+            "name": "list"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOO07yiQ",
+    "nameWithOwner": "ruvnet/ruflo",
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "url": "https://github.com/ruvnet/ruflo",
+    "stargazerCount": 69594,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "swarm"
+          }
+        },
+        {
+          "topic": {
+            "name": "agentic-ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "agentic-framework"
+          }
+        },
+        {
+          "topic": {
+            "name": "agentic-workflow"
+          }
+        },
+        {
+          "topic": {
+            "name": "autonomous-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "codex"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp-server"
+          }
+        },
+        {
+          "topic": {
+            "name": "multi-agent"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-assistant"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOR2BYsQ",
+    "nameWithOwner": "filiksyos/gitreverse",
+    "description": "Reverse engineer any repo into it's original prompt",
+    "url": "https://github.com/filiksyos/gitreverse",
+    "stargazerCount": 1856,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "prompt-engineering"
+          }
+        },
+        {
+          "topic": {
+            "name": "reverse-engineering"
+          }
+        },
+        {
+          "topic": {
+            "name": "vibe-coding"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjI4NzM1NTA=",
+    "nameWithOwner": "crater-invoice-inc/crater",
+    "description": "Open Source Invoicing Solution for Individuals & Businesses",
+    "url": "https://github.com/crater-invoice-inc/crater",
+    "stargazerCount": 8342,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "invoices"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue"
+          }
+        },
+        {
+          "topic": {
+            "name": "payment"
+          }
+        },
+        {
+          "topic": {
+            "name": "laravel-framework"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORMGVxA",
+    "nameWithOwner": "Jamkris/everything-gemini-code",
+    "description": "[Everything Gemini Code] A harness engineering toolkit for Gemini CLI & Antigravity. Tune the runtime around the model, not the model itself",
+    "url": "https://github.com/Jamkris/everything-gemini-code",
+    "stargazerCount": 87,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "antigravity"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-cli-extension"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini-cli-skills"
+          }
+        },
+        {
+          "topic": {
+            "name": "developer-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "hooks"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "productivity"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQ70FFw",
+    "nameWithOwner": "wjgoarxiv/antigravity-swarm",
+    "description": "::A team of AI agents to code for you.::",
+    "url": "https://github.com/wjgoarxiv/antigravity-swarm",
+    "stargazerCount": 166,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyMDYxOTAzNg==",
+    "nameWithOwner": "pi-hole/pi-hole",
+    "description": "A black hole for Internet advertisements",
+    "url": "https://github.com/pi-hole/pi-hole",
+    "stargazerCount": 60655,
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "pi-hole"
+          }
+        },
+        {
+          "topic": {
+            "name": "ad-blocker"
+          }
+        },
+        {
+          "topic": {
+            "name": "shell"
+          }
+        },
+        {
+          "topic": {
+            "name": "blocker"
+          }
+        },
+        {
+          "topic": {
+            "name": "raspberry-pi"
+          }
+        },
+        {
+          "topic": {
+            "name": "cloud"
+          }
+        },
+        {
+          "topic": {
+            "name": "dnsmasq"
+          }
+        },
+        {
+          "topic": {
+            "name": "dhcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "dhcp-server"
+          }
+        },
+        {
+          "topic": {
+            "name": "dns-server"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOR50T8g",
+    "nameWithOwner": "santifer/career-ops",
+    "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+    "url": "https://github.com/santifer/career-ops",
+    "stargazerCount": 68997,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai-agent"
+          }
+        },
+        {
+          "topic": {
+            "name": "anthropic"
+          }
+        },
+        {
+          "topic": {
+            "name": "automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "career"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "cli"
+          }
+        },
+        {
+          "topic": {
+            "name": "golang"
+          }
+        },
+        {
+          "topic": {
+            "name": "interview-prep"
+          }
+        },
+        {
+          "topic": {
+            "name": "job-search"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOG1Zs1w",
+    "nameWithOwner": "paperless-ngx/paperless-ngx",
+    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+    "url": "https://github.com/paperless-ngx/paperless-ngx",
+    "stargazerCount": 44664,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "angular"
+          }
+        },
+        {
+          "topic": {
+            "name": "archiving"
+          }
+        },
+        {
+          "topic": {
+            "name": "django"
+          }
+        },
+        {
+          "topic": {
+            "name": "dms"
+          }
+        },
+        {
+          "topic": {
+            "name": "document-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "document-management-system"
+          }
+        },
+        {
+          "topic": {
+            "name": "machine-learning"
+          }
+        },
+        {
+          "topic": {
+            "name": "ocr"
+          }
+        },
+        {
+          "topic": {
+            "name": "optical-character-recognition"
+          }
+        },
+        {
+          "topic": {
+            "name": "pdf"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQwMDU=",
+    "nameWithOwner": "opencats/OpenCATS",
+    "description": "Open-source applicant tracking system (ATS) and recruitment CRM for staffing agencies and hiring teams.",
+    "url": "https://github.com/opencats/OpenCATS",
+    "stargazerCount": 732,
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "opencats"
+          }
+        },
+        {
+          "topic": {
+            "name": "php"
+          }
+        },
+        {
+          "topic": {
+            "name": "applicant-tracking-systems"
+          }
+        },
+        {
+          "topic": {
+            "name": "ats"
+          }
+        },
+        {
+          "topic": {
+            "name": "candidate-management"
+          }
+        },
+        {
+          "topic": {
+            "name": "hr"
+          }
+        },
+        {
+          "topic": {
+            "name": "mysql"
+          }
+        },
+        {
+          "topic": {
+            "name": "recruiting"
+          }
+        },
+        {
+          "topic": {
+            "name": "recruitment"
+          }
+        },
+        {
+          "topic": {
+            "name": "recruitment-crm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "MDEwOlJlcG9zaXRvcnkzMzYxNDMwNA==",
+    "nameWithOwner": "nvbn/thefuck",
+    "description": "Magnificent app which corrects your previous console command.",
+    "url": "https://github.com/nvbn/thefuck",
+    "stargazerCount": 97748,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "python"
+          }
+        },
+        {
+          "topic": {
+            "name": "shell"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQnw-tQ",
+    "nameWithOwner": "allenk/GeminiWatermarkTool",
+    "description": "VEO / Gemini 3.5 Nano Banana Pro watermark maintenance tool",
+    "url": "https://github.com/allenk/GeminiWatermarkTool",
+    "stargazerCount": 3088,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "cli-app"
+          }
+        },
+        {
+          "topic": {
+            "name": "gemini"
+          }
+        },
+        {
+          "topic": {
+            "name": "gui-application"
+          }
+        },
+        {
+          "topic": {
+            "name": "veo3"
+          }
+        },
+        {
+          "topic": {
+            "name": "watermark"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOKdDCcw",
+    "nameWithOwner": "open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "url": "https://github.com/open-webui/open-webui",
+    "stargazerCount": 150204,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ollama"
+          }
+        },
+        {
+          "topic": {
+            "name": "ollama-webui"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "webui"
+          }
+        },
+        {
+          "topic": {
+            "name": "self-hosted"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm-ui"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm-webui"
+          }
+        },
+        {
+          "topic": {
+            "name": "llms"
+          }
+        },
+        {
+          "topic": {
+            "name": "rag"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOGlHqKA",
+    "nameWithOwner": "llZektorll/OB_Template",
+    "description": "OB_Templates is a Obsidian reference for note templates focused on new users of the application using only core plugins.",
+    "url": "https://github.com/llZektorll/OB_Template",
+    "stargazerCount": 1756,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "obsidian"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-md"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-vault"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-notes"
+          }
+        },
+        {
+          "topic": {
+            "name": "templates"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-template"
+          }
+        },
+        {
+          "topic": {
+            "name": "template"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-community"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-folder"
+          }
+        },
+        {
+          "topic": {
+            "name": "obsidian-snippet"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOR2Chew",
+    "nameWithOwner": "VoltAgent/awesome-design-md",
+    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+    "url": "https://github.com/VoltAgent/awesome-design-md",
+    "stargazerCount": 110975,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "awesome-list"
+          }
+        },
+        {
+          "topic": {
+            "name": "design-md"
+          }
+        },
+        {
+          "topic": {
+            "name": "design-system"
+          }
+        },
+        {
+          "topic": {
+            "name": "google-stitch"
+          }
+        },
+        {
+          "topic": {
+            "name": "landing-page"
+          }
+        },
+        {
+          "topic": {
+            "name": "design-tokens"
+          }
+        },
+        {
+          "topic": {
+            "name": "figma"
+          }
+        },
+        {
+          "topic": {
+            "name": "vibe-coding"
+          }
+        },
+        {
+          "topic": {
+            "name": "vibe-design"
+          }
+        },
+        {
+          "topic": {
+            "name": "vibecoding"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOMCtNDQ",
+    "nameWithOwner": "DigitalPlatDev/FreeDomain",
+    "description": "Free domain registration and practical DNS learning resources for everyone.",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "stargazerCount": 196107,
+    "primaryLanguage": {
+      "name": "Markdown"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "domain"
+          }
+        },
+        {
+          "topic": {
+            "name": "domain-platform"
+          }
+        },
+        {
+          "topic": {
+            "name": "domains"
+          }
+        },
+        {
+          "topic": {
+            "name": "free"
+          }
+        },
+        {
+          "topic": {
+            "name": "freedomain"
+          }
+        },
+        {
+          "topic": {
+            "name": "domainname"
+          }
+        },
+        {
+          "topic": {
+            "name": "digitalplat"
+          }
+        },
+        {
+          "topic": {
+            "name": "dns"
+          }
+        },
+        {
+          "topic": {
+            "name": "documentation"
+          }
+        },
+        {
+          "topic": {
+            "name": "domain-registration"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORKpZAg",
+    "nameWithOwner": "AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "stargazerCount": 15614,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "seo"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-seo"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-code-skill"
+          }
+        },
+        {
+          "topic": {
+            "name": "marketing-automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "open-source"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQ6n2Jw",
+    "nameWithOwner": "coreyhaines31/marketingskills",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "stargazerCount": 45928,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "codex"
+          }
+        },
+        {
+          "topic": {
+            "name": "marketing"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOPG3UAA",
+    "nameWithOwner": "permissionlesstech/bitchat",
+    "description": "bluetooth mesh chat, IRC vibes",
+    "url": "https://github.com/permissionlesstech/bitchat",
+    "stargazerCount": 36001,
+    "primaryLanguage": {
+      "name": "Swift"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "bluetooth"
+          }
+        },
+        {
+          "topic": {
+            "name": "bluetooth-le"
+          }
+        },
+        {
+          "topic": {
+            "name": "decentralized"
+          }
+        },
+        {
+          "topic": {
+            "name": "e2e-encryption"
+          }
+        },
+        {
+          "topic": {
+            "name": "ios"
+          }
+        },
+        {
+          "topic": {
+            "name": "macos"
+          }
+        },
+        {
+          "topic": {
+            "name": "mesh-network"
+          }
+        },
+        {
+          "topic": {
+            "name": "messaging"
+          }
+        },
+        {
+          "topic": {
+            "name": "nostr"
+          }
+        },
+        {
+          "topic": {
+            "name": "swift"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDORCCMkQ",
+    "nameWithOwner": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "stargazerCount": 208255,
+    "primaryLanguage": null,
+    "repositoryTopics": {
+      "nodes": []
+    }
+  },
+  {
+    "id": "R_kgDORmDA6Q",
+    "nameWithOwner": "JCodesMore/ai-website-cloner-template",
+    "description": "Clone any website with one command using AI coding agents",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "stargazerCount": 33273,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "ai-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "automation"
+          }
+        },
+        {
+          "topic": {
+            "name": "boilerplate"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "clone"
+          }
+        },
+        {
+          "topic": {
+            "name": "developer-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "nextjs"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "R_kgDOQ77-1A",
+    "nameWithOwner": "affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "url": "https://github.com/affaan-m/ECC",
+    "stargazerCount": 243838,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "ai-agents"
+          }
+        },
+        {
+          "topic": {
+            "name": "anthropic"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude"
+          }
+        },
+        {
+          "topic": {
+            "name": "claude-code"
+          }
+        },
+        {
+          "topic": {
+            "name": "developer-tools"
+          }
+        },
+        {
+          "topic": {
+            "name": "llm"
+          }
+        },
+        {
+          "topic": {
+            "name": "mcp"
+          }
+        },
+        {
+          "topic": {
+            "name": "productivity"
+          }
+        }
+      ]
+    }
+  }
+]

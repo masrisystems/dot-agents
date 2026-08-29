@@ -21,6 +21,11 @@
 - When the user asks to optimize, tag, geotag, convert, or prepare an image for web, blog, or Google Business Profile use, activate the `image-webp-geotag` skill and follow its brand and format rules.
 - **Google Business Profile (GBP) Constraint:** Google Business Profile does **NOT** accept WebP uploads. Always produce high-res **JPG** (`.jpg`) images with embedded GPS & IPTC metadata for GBP, Apple Business Connect, and local citation platforms.
 
+## UI Design & Iconography
+
+- **Never use emojis in UI design.** Emojis look amateurish and render inconsistently across platforms and operating systems.
+- Instead, search for and use royalty-free SVG files, clean vector assets, and established icon packages (e.g. Lucide Icons, Heroicons, or royalty-free SVGs).
+
 ## Blog Generation & Workflow
 
 - When the user asks to generate, write, draft, or make a blog post (e.g., `blog generate`, `make the blog`, `write blog post`, `generate blog`, `weekly blog`, `draft blog`, `new blog`, or `/blog`), activate the `weekly-blog-workflow` (or `blog-generate`) skill and execute the authoritative workflow defined in `C:\Users\super\Desktop\obsidian\masrisystems-app\content\conductor\weekly-blog-workflow.md`.

@@ -16,14 +16,14 @@ Give each agent a separate directory and branch while retaining one shared Git o
 5. Validate with `git worktree list` and `git -C <worktree> status --short --branch`.
 6. Keep registered worktrees current with `scripts/sync-agent-worktrees.ps1`: preview first, then apply. The helper fetches the remote once and merges its main branch into each clean agent branch.
 
-By default, the script creates sibling worktrees under `<repository-name>-worktrees`, uses the exact committed `HEAD` as the base, and creates `codex/<task>`, `gemini/<task>`, and `claude/<task>` branches. Pass `-BaseRef origin/main` only when a fetched remote base is explicitly wanted.
+By default, the script centralizes worktrees under `C:\Users\super\worktrees\<repository-name>` (e.g. `C:\Users\super\worktrees\velyra`, `C:\Users\super\worktrees\masrisystems-app`) or sibling `<repository-name>-worktrees`, uses the exact committed `HEAD` as the base, and creates `codex/<task>`, `gemini/<task>`, and `claude/<task>` branches. Pass `-BaseRef origin/main` only when a fetched remote base is explicitly wanted. Pass `-DestinationRoot` to override.
 
 Example:
 
 ```powershell
 & "$HOME\.agents\skills\parallel-agent-worktrees\scripts\setup-agent-worktrees.ps1" `
-  -Repository C:\Projects\example `
-  -Task checkout-redesign
+  -Repository C:\Users\super\velyra `
+  -Task workspace
 
 & "$HOME\.agents\skills\parallel-agent-worktrees\scripts\setup-agent-worktrees.ps1" `
   -Repository C:\Projects\example `

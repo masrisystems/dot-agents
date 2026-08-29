@@ -39,7 +39,17 @@ $repositoryPath = [System.IO.Path]::GetFullPath($gitRoot)
 $repositoryName = Split-Path -Leaf $repositoryPath
 
 if (-not $DestinationRoot) {
-    $DestinationRoot = Join-Path (Split-Path -Parent $repositoryPath) "$repositoryName-worktrees"
+    $centralRoot = Join-Path $HOME "worktrees\$repositoryName"
+    $legacyRoot = Join-Path (Split-Path -Parent $repositoryPath) "$repositoryName-worktrees"
+    if (Test-Path -LiteralPath $centralRoot) {
+        $DestinationRoot = $centralRoot
+    } elseif (Test-Path -LiteralPath (Join-Path $HOME 'worktrees')) {
+        $DestinationRoot = $centralRoot
+    } elseif (Test-Path -LiteralPath $legacyRoot) {
+        $DestinationRoot = $legacyRoot
+    } else {
+        $DestinationRoot = $centralRoot
+    }
 }
 $destinationRootPath = [System.IO.Path]::GetFullPath($DestinationRoot)
 
@@ -48,10 +58,23 @@ $baseCommit = $baseCommit.Trim()
 $status = @(Invoke-Git -Repo $repositoryPath -Arguments @('status', '--short', '--branch') | Where-Object { $_ -notlike 'warning:*' })
 $registeredLines = Invoke-Git -Repo $repositoryPath -Arguments @('worktree', 'list', '--porcelain')
 $registered = @{}
+$registeredByAgent = @{}
+$currentWorktreePath = $null
 foreach ($line in $registeredLines) {
     if ($line -like 'worktree *') {
-        $registeredPath = [System.IO.Path]::GetFullPath($line.Substring(9))
-        $registered[$registeredPath.ToLowerInvariant()] = $true
+        $currentWorktreePath = [System.IO.Path]::GetFullPath($line.Substring(9))
+        $registered[$currentWorktreePath.ToLowerInvariant()] = $true
+        $leaf = Split-Path -Leaf $currentWorktreePath
+        if ($leaf -in $Agents) {
+            $registeredByAgent[$leaf.ToLowerInvariant()] = $currentWorktreePath
+        }
+    } elseif ($line -like 'branch refs/heads/*') {
+        $b = $line.Substring(18)
+        foreach ($ag in $Agents) {
+            if ($b -like "$ag/*" -and $currentWorktreePath) {
+                $registeredByAgent[$ag.ToLowerInvariant()] = $currentWorktreePath
+            }
+        }
     }
 }
 
@@ -69,7 +92,11 @@ if ($status | Where-Object { $_ -notlike '##*' }) {
 
 foreach ($agent in $Agents) {
     $branch = "$agent/$Task"
-    $destination = [System.IO.Path]::GetFullPath((Join-Path $destinationRootPath $agent))
+    $destination = if ($registeredByAgent.ContainsKey($agent.ToLowerInvariant())) {
+        $registeredByAgent[$agent.ToLowerInvariant()]
+    } else {
+        [System.IO.Path]::GetFullPath((Join-Path $destinationRootPath $agent))
+    }
     $destinationKey = $destination.ToLowerInvariant()
     & git -C $repositoryPath show-ref --verify --quiet "refs/heads/$branch"
     $branchExists = $LASTEXITCODE -eq 0
