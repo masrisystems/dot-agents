@@ -72,6 +72,26 @@ Search or activate any catalog skill using `manage-catalog.ps1`:
 
 ---
 
+## 🧩 Claude Code Plugins & Marketplaces
+
+`config/plugins.json` is the portable manifest of every Claude Code marketplace and
+user-scope plugin. The installers run the restore automatically; re-run it any time with:
+
+```powershell
+.	oolsestore-plugins.ps1     # Windows
+```
+```bash
+bash tools/restore-plugins.sh    # macOS / Linux
+```
+
+Project-scoped plugins (listed under `projectPlugins`) must be installed from inside
+that project's directory.
+
+After adding or removing a plugin locally, refresh the manifest by hand from
+`~/.claude/plugins/installed_plugins.json` and `known_marketplaces.json`, then commit.
+
+---
+
 ## 📱 Telegram Mobile Bridge
 
 The included `tools/telegram.mjs` allows background tasks and automations to push alerts and ask questions directly to your phone:

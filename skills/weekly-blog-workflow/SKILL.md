@@ -1,6 +1,6 @@
 ---
 name: weekly-blog-workflow
-description: "Interactively drafts and optimizes high-ranking, humanized weekly SEO blog posts for review (draft: true) following the strict workflow in content/conductor/weekly-blog-workflow.md. Activates when the user mentions blog generate, make blog, write blog post, generate blog post, weekly blog, draft blog, write article, new blog, /blog, or asks to draft an article for masri.blog / masrisystems.com."
+description: "Drafts, gates, and auto-publishes the weekly SEO blog post for masri.blog following the authoritative workflow in content/conductor/weekly-blog-workflow.md. Activates when the user mentions blog generate, make blog, write blog post, generate blog post, weekly blog, draft blog, write article, new blog, /blog, or asks to draft an article for masri.blog / masrisystems.com."
 license: MIT
 metadata:
   author: "Masri Systems"
@@ -8,10 +8,24 @@ metadata:
 
 # Weekly Blog Generation & Optimization Skill
 
-> [!important] Hard Principle: Draft for Review Only (Never Auto-Publish)
-> Your task is to interactively draft a weekly blog post for **review** — not to publish it automatically. Always save with `draft: true` and `status: draft`.
->
+> [!important] The conductor file is authoritative — this skill is the activation shim
 > **Master Workflow Specification:** [`content/conductor/weekly-blog-workflow.md`](file:///c:/Users/super/Desktop/obsidian/masrisystems-app/content/conductor/weekly-blog-workflow.md)
+>
+> That file owns the end-to-end run: **Step 0** (release a due `status: scheduled` batch post and stop),
+> Steps 1–2 (topic priority), Step 7 (source every load-bearing claim *before* drafting), **Step 10's two
+> blocking gates**, Step 11 (backlog + Run log), Step 12 (commit + push = publish), Step 13 (notify), and
+> the self-check appendix. **Read it and follow it.** This skill carries only the activation triggers and
+> the hard constraints repeated below. Where the two ever disagree, **the conductor file wins.**
+
+> [!warning] This workflow publishes live — there is no human review
+> Posts ship with `draft: false` and `status: active`. The only thing standing between drafting and a live
+> post is Step 10's automated gates: **Gate A** — `blog-factcheck` returns zero unverified claims — and
+> **Gate B** — review score ≥ 85/100 with zero P0 issues. If a gate cannot be passed, **do not downgrade to
+> `draft: true` and ship anyway**: fix the content, or skip the week and tell the user why.
+>
+> The one exception is **batch mode**: the monthly content batch pre-drafts posts with `draft: true`,
+> `status: scheduled`, and a `publish_date`. Those stay out of the build until a later weekly run's Step 0
+> finds `publish_date` ≤ today and flips them live.
 
 ---
 
@@ -98,20 +112,22 @@ Do NOT output the raw post text into the chat. Generate internally and use the f
     2. Generate optimized **WebP** (`1200x675`, 16:9, quality 85) for web rendering.
     3. Rename to `masrisystems-[subfolder]-[target-keyword]-oldenburg.jpg` and `.webp`.
     4. Geotag with Oldenburg coordinates (`53.136829, 8.196328`) & embed IPTC/EXIF metadata from `brand.json` into both JPG and WebP files.
-    5. Save `.jpg` to `content/Assets/GBP/`, `content/Assets/Blog/`, and `public/images/`.
-    6. Save `.webp` to `content/Assets/Blog/`, `public/images/`, and root `images/`.
+    5. Save **one copy of each** into `masrisystems-app/public/images/` — the `.webp` and the `.jpg`.
+       Do **not** also write into `content/Assets/**` or a repo-root `images/` folder; those were
+       duplicate trees and have been removed. A 1:1 square social crop (a different crop, not a copy)
+       goes to `masrisystems-app/public/images/gbp/`. Layout reference: `masrisystems-app/docs/19-images-layout.md`.
   - **Upload to Cloudflare R2 (required before embedding).** From `masrisystems-app/`:
     ```bash
     php artisan storage:r2-sync --dir=public/images
     ```
-    Uploads `public/images/**` to the `images/` prefix on R2, skipping files already present (`--force` to overwrite a regenerated asset, `--dry-run` to preview). Bare `storage:r2-sync` also syncs `content/Assets/**` to the `assets/` prefix. Public CDN base = `AWS_URL` in `masrisystems-app/.env`.
+    Uploads `public/images/**` to the `images/` prefix on R2, skipping files already present (`--force` to overwrite a regenerated asset, `--dry-run` to preview). Public CDN base = `AWS_URL` in `masrisystems-app/.env`. (Bare `storage:r2-sync` also pushes `content/Assets/**` to the `assets/` prefix — blog and social images must never go there; they are read from `images/`.)
   - **Embed the R2 URL with standard markdown syntax, referencing the `.webp`:**
     ```markdown
     ![Keyword-rich alt text](https://pub-342a3c651bc946c795585c46f7161a33.r2.dev/images/masrisystems-[subfolder]-[keyword]-oldenburg.webp)
     ```
     - `.webp` in the blog body (~30% smaller — the same sub-second standard these posts preach). The `.jpg` sits on R2 at the same path with a `.jpg` extension and is what goes to **GBP / Apple Business Connect / social** — GBP rejects WebP.
     - ⚠️ **Never use `![[...]]` for a remote image.** Obsidian embed syntax resolves against vault files only; given a URL it renders as a broken wikilink, not an `<img>`. External images are always `![alt](url)`.
-    - Verify the URL returns `200` before saving the draft.
+    - Verify the URL returns `200` with the expected `content-type` (`curl -sI <url>`) before saving the post.
   - **Fallback chain (in order):**
     1. **Pixabay** (preferred) — free for commercial use, **no attribution required**. Search `site:pixabay.com [topic keywords]`.
     2. **Pexels** — free for commercial use, **no attribution required**. Search `site:pexels.com [topic keywords]`.
@@ -146,8 +162,8 @@ tags:
 author: "Masri Systems"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-draft: true
-status: draft
+draft: false
+status: active
 subfolder: "ai"
 aliases:
   - Short Alt Title
@@ -155,7 +171,7 @@ aliases:
 ```
 
 > [!warning] Critical YAML Frontmatter Rules
-> 1. **Both `draft: true` and `status: draft` are required.** Quartz's RemoveDrafts filter checks `draft:` only — it never reads `status`. A post with `status: draft` but `draft: false` **goes live on the next deploy**.
+> 1. **`draft: false` + `status: active` = publishes on the next deploy — that is intentional here.** Quartz's RemoveDrafts filter reads `draft:` only; it never reads `status`. So `draft: false` is what makes the post live, and `status: active` is what fires the deploy trigger. The **only** posts written with `draft: true` are monthly-batch pre-drafts, which also carry `status: scheduled` and a `publish_date` and are released later by Step 0.
 > 2. **NEVER prefix YAML tags with `#`.** Write `- coding/ai`, NOT `- #coding/ai` (a hash after space creates a YAML comment and strips all tags).
 > 3. **The field is `meta_description:`, not `description:`.** `Head.tsx` resolves `socialDescription` → `description` → `meta_description` → auto-extracted body text, and the same value feeds the auto-emitted `BlogPosting` JSON-LD.
 
@@ -194,7 +210,15 @@ A P0 (fabricated statistic, unsupported first-hand claim, broken load-bearing li
 - `blog-geo` — AI-citation readiness. Never sacrifice the 1000-word cap to raise it.
 - `blog-schema` — **BlogPosting JSON-LD is emitted automatically** by `quartz/components/Head.tsx`. Do **not** hand-write Article/BlogPosting/Person/Organization blocks into posts. Use this skill only for supplementary types the emitter does not cover (`FAQPage` when a visible Q&A exists, `BreadcrumbList`). Two conflicting `BlogPosting` entities on one page is worse than one.
 
-### 9. Synchronize Master Backlog & Confirm
-1. Update `content/conductor/blog-optimization-backlog.md` (mark row status as `✅ Optimized` and update summary counts).
-2. Confirm to user in chat:
-   > *"The draft blog post '[Topic]' has been written to `[Path]` with `draft: true`. It is safely gated and NOT published. Please review it whenever you're ready."*
+### 9. Synchronize Backlogs, Publish, Confirm
+
+Follow conductor Steps 11–13 in full. In short:
+
+1. Update `content/conductor/blog-optimization-backlog.md` (mark the row `✅ Optimized`, update summary counts).
+2. Append a `## Run log` line to `content/private/Prompts/Blogs/Blog Ideas.md` recording the topic source, so the next run skips a used idea. Do **not** edit `## Inbox` statuses or move items between sections.
+3. Set `updated:` to today, confirm `draft: false` / `status: active`, then commit the article plus both backlog files and push to `main` — **the push is the publish action**; CI deploys. Do not run `npx quartz sync` or `npm run build` locally.
+4. Confirm to the user:
+   > *"Published this week's post '[Topic]' → [live URL] (committed to `main`, CI is deploying). Source: [user topic | backlog idea | recent Kanban win]."*
+
+   If a gate could not be passed, skip the commit entirely, leave nothing half-published, and say so:
+   > *"No post shipped this week — Gate [A/B] could not pass on '[Topic]'."*

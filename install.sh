@@ -36,6 +36,11 @@ if [ -d "$TARGET_DIR/skills" ]; then
     done
 fi
 
+# Restore Claude Code marketplaces and plugins
+if [ -f "$TARGET_DIR/tools/restore-plugins.sh" ]; then
+    bash "$TARGET_DIR/tools/restore-plugins.sh"
+fi
+
 echo ""
 echo "✓ Installation complete! Agent hub is linked to ~/.claude/skills."
 echo "  Canonical Directory: $TARGET_DIR"

@@ -1,0 +1,204 @@
+{
+  "version": 3,
+  "skills": {
+    "academic-cv-builder": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/academic-cv-builder/SKILL.md",
+      "skillFolderHash": "86b6f36051bb742e5f029c692060b01b606e2430",
+      "installedAt": "2026-08-29T22:56:16.689Z",
+      "updatedAt": "2026-08-29T22:56:16.689Z"
+    },
+    "application-form-filler": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/application-form-filler/SKILL.md",
+      "skillFolderHash": "5e13627a7457094d89c908984931a4b3bdf0938b",
+      "installedAt": "2026-08-29T22:56:16.713Z",
+      "updatedAt": "2026-08-29T22:56:16.713Z"
+    },
+    "career-changer-translator": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/career-changer-translator/SKILL.md",
+      "skillFolderHash": "fb4e7b9a8caa82e66dc3c3bbdb561551e0ab18a6",
+      "installedAt": "2026-08-29T22:56:16.734Z",
+      "updatedAt": "2026-08-29T22:56:16.734Z"
+    },
+    "cold-email-writer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/cold-email-writer/SKILL.md",
+      "skillFolderHash": "fbbd2eda52cdebd0e4f1031e7baac4487b1d2245",
+      "installedAt": "2026-08-29T22:56:16.755Z",
+      "updatedAt": "2026-08-29T22:56:16.755Z"
+    },
+    "cover-letter-generator": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/cover-letter-generator/SKILL.md",
+      "skillFolderHash": "fae2e17fb357f3cd646285299caa0ee9330dfcb4",
+      "installedAt": "2026-08-29T22:56:16.784Z",
+      "updatedAt": "2026-08-29T22:56:16.784Z"
+    },
+    "creative-portfolio-resume": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/creative-portfolio-resume/SKILL.md",
+      "skillFolderHash": "c4c94b860fd011f89647730b5fcc2b16ee99c129",
+      "installedAt": "2026-08-29T22:56:16.805Z",
+      "updatedAt": "2026-08-29T22:56:16.805Z"
+    },
+    "executive-resume-writer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/executive-resume-writer/SKILL.md",
+      "skillFolderHash": "1456811d022de6c604897f23062dae939de4f93d",
+      "installedAt": "2026-08-29T22:56:16.837Z",
+      "updatedAt": "2026-08-29T22:56:16.837Z"
+    },
+    "interview-prep-generator": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/interview-prep-generator/SKILL.md",
+      "skillFolderHash": "1aacc38bc92a197c34c6fcf94fe2fa5e41538b90",
+      "installedAt": "2026-08-29T22:56:16.872Z",
+      "updatedAt": "2026-08-29T22:56:16.872Z"
+    },
+    "job-description-analyzer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/job-description-analyzer/SKILL.md",
+      "skillFolderHash": "ee52d788b5aca74e606dc68fa37e3ce3d26dd455",
+      "installedAt": "2026-08-29T22:56:16.897Z",
+      "updatedAt": "2026-08-29T22:56:16.897Z"
+    },
+    "linkedin-profile-optimizer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/linkedin-profile-optimizer/SKILL.md",
+      "skillFolderHash": "7e19df4f78fef97fc1bd000c77a2f94879f4257e",
+      "installedAt": "2026-08-29T22:56:16.927Z",
+      "updatedAt": "2026-08-29T22:56:16.927Z"
+    },
+    "offer-comparison-analyzer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/offer-comparison-analyzer/SKILL.md",
+      "skillFolderHash": "d0c1803916e8f7301214e4bb46e284bcf766ea57",
+      "installedAt": "2026-08-29T22:56:16.957Z",
+      "updatedAt": "2026-08-29T22:56:16.957Z"
+    },
+    "portfolio-case-study-writer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/portfolio-case-study-writer/SKILL.md",
+      "skillFolderHash": "06f5a7097ebfb13cd3e5c74cedf3432f3c612ad3",
+      "installedAt": "2026-08-29T22:56:16.984Z",
+      "updatedAt": "2026-08-29T22:56:16.984Z"
+    },
+    "reference-list-builder": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/reference-list-builder/SKILL.md",
+      "skillFolderHash": "3e915143b4966984e332e025ef8d60d8121e3bcb",
+      "installedAt": "2026-08-29T22:56:17.010Z",
+      "updatedAt": "2026-08-29T22:56:17.010Z"
+    },
+    "resume-ats-optimizer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-ats-optimizer/SKILL.md",
+      "skillFolderHash": "bf17e4ed4337d2e15cfd7674537f4b7d345796fd",
+      "installedAt": "2026-08-29T22:56:17.039Z",
+      "updatedAt": "2026-08-29T22:56:17.039Z"
+    },
+    "resume-bullet-writer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-bullet-writer/SKILL.md",
+      "skillFolderHash": "c945200727fb620d656a49d463678584a21a44b3",
+      "installedAt": "2026-08-29T22:56:17.071Z",
+      "updatedAt": "2026-08-29T22:56:17.071Z"
+    },
+    "resume-formatter": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-formatter/SKILL.md",
+      "skillFolderHash": "03f9c08763b1c7e189cdfcb5af206745fbbbf217",
+      "installedAt": "2026-08-29T22:56:17.107Z",
+      "updatedAt": "2026-08-29T22:56:17.107Z"
+    },
+    "resume-quantifier": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-quantifier/SKILL.md",
+      "skillFolderHash": "cfb8e8a83ffa469e30854f34d8f52a400d13df58",
+      "installedAt": "2026-08-29T22:56:17.151Z",
+      "updatedAt": "2026-08-29T22:56:17.151Z"
+    },
+    "resume-section-builder": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-section-builder/SKILL.md",
+      "skillFolderHash": "92d5d5e4dbc5c76c637f0b5549e27046c2dcabb5",
+      "installedAt": "2026-08-29T22:56:17.179Z",
+      "updatedAt": "2026-08-29T22:56:17.179Z"
+    },
+    "resume-tailor": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-tailor/SKILL.md",
+      "skillFolderHash": "8aba47801e48b9227adacd3f4aa4775652dfd975",
+      "installedAt": "2026-08-29T22:56:17.207Z",
+      "updatedAt": "2026-08-29T22:56:17.207Z"
+    },
+    "resume-version-manager": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/resume-version-manager/SKILL.md",
+      "skillFolderHash": "46c214c7b7220ae92a44766625a51a7fc584d1bc",
+      "installedAt": "2026-08-29T22:56:17.239Z",
+      "updatedAt": "2026-08-29T22:56:17.239Z"
+    },
+    "salary-negotiation-prep": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/salary-negotiation-prep/SKILL.md",
+      "skillFolderHash": "d3f19350e0afb1965635b1ce30b99d411b634d2c",
+      "installedAt": "2026-08-29T22:56:17.272Z",
+      "updatedAt": "2026-08-29T22:56:17.272Z"
+    },
+    "tech-resume-optimizer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Paramchoudhary/ResumeSkills.git",
+      "skillPath": "skills/tech-resume-optimizer/SKILL.md",
+      "skillFolderHash": "905ba718160a0b0cfc0a48a82e12b804194741e5",
+      "installedAt": "2026-08-29T22:56:17.304Z",
+      "updatedAt": "2026-08-29T22:56:17.304Z"
+    }
+  },
+  "dismissed": {}
+}

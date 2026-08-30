@@ -35,6 +35,11 @@ if (Test-Path "$targetDir\sync.ps1") {
     & "$targetDir\sync.ps1" -Apply
 }
 
+if (Test-Path "$targetDir	oolsestore-plugins.ps1") {
+    Write-Host "Restoring Claude Code marketplaces and plugins..." -ForegroundColor Cyan
+    & "$targetDir	oolsestore-plugins.ps1"
+}
+
 Write-Host ""
 Write-Host "✓ Installation complete! Your AI agent hub is synchronized and active." -ForegroundColor Green
 Write-Host "  Canonical Directory: $targetDir" -ForegroundColor Gray

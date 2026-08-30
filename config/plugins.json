@@ -1,0 +1,19 @@
+{
+  "marketplaces": {
+    "claude-plugins-official": "anthropics/claude-plugins-official",
+    "thedotmack": "thedotmack/claude-mem",
+    "voltagent-subagents": "VoltAgent/awesome-claude-code-subagents",
+    "lawve-ai": "lawve-ai/awesome-legal-skills",
+    "agricidaniel-blog": "AgriciDaniel/claude-blog",
+    "ecc": "affaan-m/everything-claude-code"
+  },
+  "plugins": [
+    "frontend-design@claude-plugins-official",
+    "claude-mem@thedotmack",
+    "voltagent-core-dev@voltagent-subagents",
+    "voltagent-lang@voltagent-subagents"
+  ],
+  "projectPlugins": {
+    "claude-blog@agricidaniel-blog": "installed per-project; run `claude plugin install claude-blog@agricidaniel-blog` inside the project"
+  }
+}
