@@ -21,3 +21,8 @@ desktop.ini
 
 # Nested Git repositories
 catalogs/ecc/.git
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
