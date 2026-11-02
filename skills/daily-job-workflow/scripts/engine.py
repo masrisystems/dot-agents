@@ -808,10 +808,15 @@ def init_config(slug, date_str, role_id="fullstack_laravel"):
     profile = load_profile()
     cand = profile.get("candidate", {})
     inv = profile.get("invariants", {})
-    sal_phrase = inv.get("target_salary_phrase_de", "65.000 Euro brutto im Jahr")
-    notice_phrase = inv.get("notice_period_de", "dreimonatigen Kündigungsfrist zum Monatsende, im Einvernehmen gern auch kurzfristiger")
+    sal_phrase = inv.get("target_salary_phrase_de", "")
+    notice_phrase = inv.get("notice_period_de", "Kündigungsfrist von 15 Tagen (nach Absprache gerne früher)")
     sender_title = cand.get("title_de", "Senior Fullstack Entwickler · PHP, Laravel & Vue.js")
     city = inv.get("default_location_city", "Berlin")
+
+    if sal_phrase:
+        p3_prefix = f"Meinen Gehaltsrahmen beziffere ich mit {sal_phrase}. Meine Verfügbarkeit richtet sich nach einer {notice_phrase}."
+    else:
+        p3_prefix = f"Unter Berücksichtigung meiner {notice_phrase} stehe ich Ihnen gerne zur Verfügung."
 
     skeleton = {
         "slug": slug,
@@ -828,7 +833,7 @@ def init_config(slug, date_str, role_id="fullstack_laravel"):
             "paragraphs": [
                 f"Technologische Exzellenz und moderne Architekturen bilden das Fundament robuster Softwarelösungen. Die Ausrichtung von {slug.capitalize()} GmbH passt ideal zu meinem Profil.",
                 "Seit über fünf Jahren entwickle und skaliere ich moderne Webanwendungen auf Basis von PHP, Laravel, TypeScript und Vue.js. Ein starker Fokus liegt dabei auf sauberen Schnittstellen, automatisierten Tests und CI/CD-Pipelines.",
-                f"Meinen Gehaltsrahmen beziffere ich mit {sal_phrase}. Meine Verfügbarkeit richtet sich nach einer {notice_phrase}. Detaillierte Arbeitsproben finden Sie unter {cand.get('links_url', 'https://links.example.com')}. Ich freue mich auf den fachlichen Austausch."
+                f"{p3_prefix} Detaillierte Arbeitsproben finden Sie unter {cand.get('links_url', 'https://links.example.com')}. Ich freue mich auf den fachlichen Austausch."
             ]
         }
     }
@@ -854,7 +859,8 @@ def build_daily_search_links():
     sal_band = sp.get("salary_band", {})
     min_eur = sal_band.get("min_eur", 60000)
     max_eur = sal_band.get("max_eur", 75000)
-    target_phrase = inv.get("target_salary_phrase_de", "65.000 Euro brutto im Jahr")
+    target_phrase = inv.get("target_salary_phrase_de", "")
+    target_phrase_str = f" (Ziel: {target_phrase})" if target_phrase else " (Keine Gehaltsangabe bei Bewerbung)"
 
     table_rows = []
     for idx, p in enumerate(platforms, 1):
@@ -884,7 +890,7 @@ Dieses Dokument dient als tägliches Schnellstart-Dashboard für die manuelle un
 - **Zielstack:** {target_stack}
 - **Erfahrungslevel:** {exp_level}
 - **Region:** {location} ({postal_code}, Umkreis {radius_km} km) sowie {remote_focus}
-- **Gehaltsband-Fokus:** {min_eur:,} € – {max_eur:,} € (Ziel: {target_phrase})
+- **Gehaltsband-Fokus:** {min_eur:,} € – {max_eur:,} €{target_phrase_str}
 
 ---
 

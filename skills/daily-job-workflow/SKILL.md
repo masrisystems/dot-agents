@@ -21,7 +21,7 @@ This skill enforces a token-efficient, zero-scratch-script execution of the dail
    - Initialize and declare each application's content in a concise JSON configuration file under `jobs/configs/YYYY-MM-DD_<company_slug>.json` using `python jobs/engine.py init-config`.
    - Prefer mapping to pre-validated canonical roles (`role_profile: "[role_id]"`) from `jobs/roles/`.
 3. **Core Invariants (Defined in `config/profile.json`):**
-   - **Target Compensation:** Sourced from `invariants.target_salary_phrase_de` (e.g. *"65.000 Euro brutto im Jahr"*).
+   - **Target Compensation:** Sourced from `invariants.target_salary_phrase_de` (omitted if unconfigured or empty).
    - **Notice Period:** Sourced from `invariants.notice_period_de` (e.g. *"dreimonatige Kündigungsfrist zum Monatsende, im Einvernehmen gern auch kurzfristiger"*). NEVER claim "ab sofort".
    - **Portfolio Proof:** Sourced from `candidate.links_url` (e.g. `https://links.example.com`).
    - **Domain Prohibition:** Sourced from `candidate.prohibited_domains` (e.g. generic resume URLs).
@@ -59,7 +59,7 @@ This produces `jobs/configs/YYYY-MM-DD_<company_slug>.json`:
     "paragraphs": [
       "<Paragraph 1: Company mission hook, role match, philosophy>",
       "<Paragraph 2: 5+ years experience, stack, APIs, testing, CI/CD, AI>",
-      "<Paragraph 3: Target salary from profile, notice period from profile, portfolio link from profile>"
+      "<Paragraph 3: Notice period from profile, portfolio link from profile (salary omitted when unconfigured)>"
     ]
   }
 }
