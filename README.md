@@ -109,5 +109,5 @@ Copy `config/telegram.json.example` to `config/telegram.json` and fill in your B
 ---
 
 ## 📜 License & Attribution
-- Core customizations & Masri Systems workflows © Masri Systems.
+- Core customizations, sync tooling & Masri Systems workflows © Masri Systems — licensed under the [Masri Systems Non-Commercial Source-Available License (MS-NC-1.0)](LICENSE) (personal/academic use only; business and commercial environments prohibited without a commercial license: `hallo@masrisystems.com`).
 - Catalog extensions sourced from [`affaan-m/ecc`](https://github.com/affaan-m/ecc) under MIT License.
